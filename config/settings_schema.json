@@ -1451,5 +1451,20 @@
         "default": "scheme-1"
       }
     ]
+  },
+  {
+    "name": "t:settings_schema.language.name",
+    "settings": [       
+      {
+        "type": "image_picker",
+        "id": "language_icon",
+        "label": "t:settings_schema.language.settings.language_icon.label"      
+      },
+      {
+        "type": "image_picker",
+        "id": "currency_icon",
+        "label": "t:settings_schema.language.settings.currency_icon.label"      
+      }
+    ]
   }
 ]

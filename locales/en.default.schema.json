@@ -339,6 +339,17 @@
         }
       }
     },
+    "language": {
+      "name": "Language/Currency Icon",
+      "settings": {
+        "language_icon": {
+          "label": "Language Selector Icon"
+        },
+        "currency_icon": {
+          "label": "Currency Selector Icon"
+        }  
+      }        
+    },
     "layout": {
       "name": "Layout",
       "settings": {
