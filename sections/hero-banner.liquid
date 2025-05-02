@@ -124,6 +124,10 @@
       -%}
       {{
         section.settings.video | video_tag:
+          autoplay: true, 
+          loop: true, 
+          controls: false, 
+          muted: true,
           width: section.settings.image.width,
           height: image_height,
           class: image_class,
