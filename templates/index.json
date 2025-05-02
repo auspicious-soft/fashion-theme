@@ -220,6 +220,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "hero_banner_n4Pdwf": {
+      "type": "hero-banner",
+      "blocks": {
+        "heading_VTgUxi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_4JgJMf": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_ARQUeP": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VTgUxi",
+        "text_4JgJMf",
+        "buttons_ARQUeP"
+      ],
+      "name": "Hero banner",
+      "settings": {
+        "video": "shopify://files/videos/1983667025144afaade182cafae905bb.mp4",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -228,6 +277,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "hero_banner_n4Pdwf"
   ]
 }
