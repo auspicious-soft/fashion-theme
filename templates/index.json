@@ -43,6 +43,7 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/6051513-hd_1920_1080_25fps.png",
         "image_overlay_opacity": 20,
