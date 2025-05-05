@@ -1162,6 +1162,175 @@
         "name": "图片横幅"
       }
     },
+    "hero-banner": {
+      "name": "英雄旗帜",
+      "settings": {
+        "image": {
+          "label": "图片 1"
+        },
+        "image_2": {
+          "label": "图片 2"
+        },
+        "video": {
+          "label": "视频"
+        },
+        "stack_images_on_mobile": {
+          "label": "堆叠图片"
+        },
+        "show_text_box": {
+          "label": "容器"
+        },
+        "image_overlay_opacity": {
+          "label": "叠加不透明度"
+        },
+        "show_text_below": {
+          "label": "容器"
+        },
+        "image_height": {
+          "label": "高度",
+          "options__1": {
+            "label": "适应第一张图片"
+          },
+          "options__2": {
+            "label": "小"
+          },
+          "options__3": {
+            "label": "中"
+          },
+          "options__4": {
+            "label": "大"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "左上方"
+          },
+          "options__2": {
+            "label": "顶部居中"
+          },
+          "options__3": {
+            "label": "右上方"
+          },
+          "options__4": {
+            "label": "中间居左"
+          },
+          "options__5": {
+            "label": "中间居中"
+          },
+          "options__6": {
+            "label": "中间居右"
+          },
+          "options__7": {
+            "label": "左下方"
+          },
+          "options__8": {
+            "label": "底部居中"
+          },
+          "options__9": {
+            "label": "右下方"
+          },
+          "label": "位置"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "左"
+          },
+          "options__2": {
+            "label": "居中"
+          },
+          "options__3": {
+            "label": "右"
+          },
+          "label": "对齐方式"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "左"
+          },
+          "options__2": {
+            "label": "居中"
+          },
+          "options__3": {
+            "label": "右"
+          },
+          "label": "对齐方式"
+        },
+        "mobile": {
+          "content": "移动设备布局"
+        },
+        "content": {
+          "content": "内容"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": {
+              "label": "标题",
+              "default": "图片横幅"
+            }
+          },
+          "name": "标题"
+        },
+        "text": {
+          "settings": {
+            "text": {
+              "label": "文本",
+              "default": "为客户提供有关模板中的横幅图片或内容的详细信息。"
+            },
+            "text_style": {
+              "options__1": {
+                "label": "正文"
+              },
+              "options__2": {
+                "label": "副标题"
+              },
+              "options__3": {
+                "label": "大写"
+              },
+              "label": "样式"
+            }
+          },
+          "name": "文本"
+        },
+        "buttons": {
+          "settings": {
+            "button_label_1": {
+              "label": "标签",
+              "info": "留空以隐藏",
+              "default": "按钮标签"
+            },
+            "button_link_1": {
+              "label": "链接"
+            },
+            "button_style_secondary_1": {
+              "label": "轮廓样式"
+            },
+            "button_label_2": {
+              "label": "标签",
+              "info": "留空以隐藏",
+              "default": "按钮标签"
+            },
+            "button_link_2": {
+              "label": "链接"
+            },
+            "button_style_secondary_2": {
+              "label": "轮廓样式"
+            },
+            "header_1": {
+              "content": "按钮 1"
+            },
+            "header_2": {
+              "content": "按钮 2"
+            }
+          },
+          "name": "按钮"
+        }
+      },
+      "presets": {
+        "name": "英雄旗帜"
+      }
+    },
     "image-with-text": {
       "name": "带文本的图片",
       "settings": {

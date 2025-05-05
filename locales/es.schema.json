@@ -1162,6 +1162,175 @@
         "name": "Banner de imagen"
       }
     },
+    "hero-banner": {
+      "name": "Banner de héroe",
+      "settings": {
+        "image": {
+          "label": "Imagen 1"
+        },
+        "image_2": {
+          "label": "Imagen 2"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "stack_images_on_mobile": {
+          "label": "Apilar imágenes"
+        },
+        "show_text_box": {
+          "label": "Contenedor"
+        },
+        "image_overlay_opacity": {
+          "label": "Opacidad de sobreposición"
+        },
+        "show_text_below": {
+          "label": "Contenedor"
+        },
+        "image_height": {
+          "label": "Altura",
+          "options__1": {
+            "label": "Adaptar a la primera imagen"
+          },
+          "options__2": {
+            "label": "Pequeño"
+          },
+          "options__3": {
+            "label": "Mediano"
+          },
+          "options__4": {
+            "label": "Grande"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Arriba a la izquierda"
+          },
+          "options__2": {
+            "label": "Arriba en el centro"
+          },
+          "options__3": {
+            "label": "Arriba a la derecha"
+          },
+          "options__4": {
+            "label": "Centrado a la izquierda"
+          },
+          "options__5": {
+            "label": "Centrado en el medio"
+          },
+          "options__6": {
+            "label": "Centrado a la derecha"
+          },
+          "options__7": {
+            "label": "Abajo a la izquierda"
+          },
+          "options__8": {
+            "label": "Abajo en el centro"
+          },
+          "options__9": {
+            "label": "Abajo a la derecha"
+          },
+          "label": "Posición"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Izquierda"
+          },
+          "options__2": {
+            "label": "Centro"
+          },
+          "options__3": {
+            "label": "Derecha"
+          },
+          "label": "Alineación"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Izquierda"
+          },
+          "options__2": {
+            "label": "Centro"
+          },
+          "options__3": {
+            "label": "Derecha"
+          },
+          "label": "Alineación"
+        },
+        "mobile": {
+          "content": "Diseño móvil"
+        },
+        "content": {
+          "content": "Contenido"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Título",
+          "settings": {
+            "heading": {
+              "label": "Título",
+              "default": "Banner de imagen"
+            }
+          }
+        },
+        "text": {
+          "name": "Texto",
+          "settings": {
+            "text": {
+              "label": "Texto",
+              "default": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Cuerpo"
+              },
+              "options__2": {
+                "label": "Subtítulo"
+              },
+              "options__3": {
+                "label": "Mayúscula"
+              },
+              "label": "Estilo"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Botones",
+          "settings": {
+            "button_label_1": {
+              "label": "Etiqueta",
+              "info": "Dejar en blanco para ocultar",
+              "default": "Etiqueta de botón"
+            },
+            "button_link_1": {
+              "label": "Enlace"
+            },
+            "button_style_secondary_1": {
+              "label": "Estilo de contorno"
+            },
+            "button_label_2": {
+              "label": "Etiqueta",
+              "info": "Dejar en blanco para ocultar",
+              "default": "Etiqueta de botón"
+            },
+            "button_link_2": {
+              "label": "Enlace"
+            },
+            "button_style_secondary_2": {
+              "label": "Estilo de contorno"
+            },
+            "header_1": {
+              "content": "Botón 1"
+            },
+            "header_2": {
+              "content": "Botón 2"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Banner de héroe"
+      }
+    },
     "image-with-text": {
       "name": "Imagen con texto",
       "settings": {

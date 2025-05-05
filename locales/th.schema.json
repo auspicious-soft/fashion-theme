@@ -1162,6 +1162,175 @@
         "name": "แบนเนอร์รูปภาพ"
       }
     },
+    "hero-banner": {
+      "name": "แบนเนอร์ฮีโร่",
+      "settings": {
+        "image": {
+          "label": "รูปภาพ 1"
+        },
+        "image_2": {
+          "label": "รูปภาพ 2"
+        },
+        "video": {
+          "label": "วีดีโอ"
+        },
+        "stack_images_on_mobile": {
+          "label": "ซ้อนรูปภาพ"
+        },
+        "show_text_box": {
+          "label": "คอนเทนเนอร์"
+        },
+        "image_overlay_opacity": {
+          "label": "ความทึบของการวางซ้อน"
+        },
+        "show_text_below": {
+          "label": "คอนเทนเนอร์"
+        },
+        "image_height": {
+          "label": "ความสูง",
+          "options__1": {
+            "label": "ปรับให้เข้ากับรูปภาพแรก"
+          },
+          "options__2": {
+            "label": "เล็ก"
+          },
+          "options__3": {
+            "label": "ปานกลาง"
+          },
+          "options__4": {
+            "label": "ใหญ่"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "ซ้ายบน"
+          },
+          "options__2": {
+            "label": "กึ่งกลางด้านบน"
+          },
+          "options__3": {
+            "label": "ขวาบน"
+          },
+          "options__4": {
+            "label": "ตรงกลางด้านซ้าย"
+          },
+          "options__5": {
+            "label": "กึ่งกลางตรงกลาง"
+          },
+          "options__6": {
+            "label": "ตรงกลางด้านขวา"
+          },
+          "options__7": {
+            "label": "ซ้ายล่าง"
+          },
+          "options__8": {
+            "label": "กึ่งกลางด้านล่าง"
+          },
+          "options__9": {
+            "label": "ขวาล่าง"
+          },
+          "label": "ตำแหน่ง"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "ซ้าย"
+          },
+          "options__2": {
+            "label": "กึ่งกลาง"
+          },
+          "options__3": {
+            "label": "ขวา"
+          },
+          "label": "การจัดวาง"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "ซ้าย"
+          },
+          "options__2": {
+            "label": "กึ่งกลาง"
+          },
+          "options__3": {
+            "label": "ขวา"
+          },
+          "label": "การจัดวาง"
+        },
+        "mobile": {
+          "content": "เลย์เอาต์สำหรับมือถือ"
+        },
+        "content": {
+          "content": "เนื้อหา"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": {
+              "label": "หัวเรื่อง",
+              "default": "แบนเนอร์รูปภาพ"
+            }
+          },
+          "name": "หัวเรื่อง"
+        },
+        "text": {
+          "settings": {
+            "text": {
+              "label": "ข้อความ",
+              "default": "ให้ลูกค้าเห็นรายละเอียดเกี่ยวกับเนื้อหาหรือรูปภาพในแบนเนอร์บนเทมเพลต"
+            },
+            "text_style": {
+              "options__1": {
+                "label": "เนื้อหา"
+              },
+              "options__2": {
+                "label": "คำบรรยาย"
+              },
+              "options__3": {
+                "label": "ตัวพิมพ์ใหญ่"
+              },
+              "label": "รูปแบบ"
+            }
+          },
+          "name": "ข้อความ"
+        },
+        "buttons": {
+          "settings": {
+            "button_label_1": {
+              "label": "ใบจ่าหน้า",
+              "info": "ปล่อยว่างไว้เพื่อซ่อน",
+              "default": "ป้ายกำกับปุ่ม"
+            },
+            "button_link_1": {
+              "label": "ลิงก์"
+            },
+            "button_style_secondary_1": {
+              "label": "รูปแบบเค้าโครง"
+            },
+            "button_label_2": {
+              "label": "ใบจ่าหน้า",
+              "info": "ปล่อยว่างไว้เพื่อซ่อน",
+              "default": "ป้ายกำกับปุ่ม"
+            },
+            "button_link_2": {
+              "label": "ลิงก์"
+            },
+            "button_style_secondary_2": {
+              "label": "รูปแบบเค้าโครง"
+            },
+            "header_1": {
+              "content": "ปุ่ม 1"
+            },
+            "header_2": {
+              "content": "ปุ่ม 2"
+            }
+          },
+          "name": "ปุ่ม"
+        }
+      },
+      "presets": {
+        "name": "แบนเนอร์ฮีโร่"
+      }
+    },
     "image-with-text": {
       "name": "รูปภาพพร้อมข้อความ",
       "settings": {

@@ -1162,6 +1162,175 @@
         "name": "Görsel banner'ı"
       }
     },
+    "hero-banner": {
+      "name": "Kahraman banner'ı",
+      "settings": {
+        "image": {
+          "label": "Görsel 1"
+        },
+        "image_2": {
+          "label": "Görsel 2"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "stack_images_on_mobile": {
+          "label": "Görselleri üst üste ekle"
+        },
+        "show_text_box": {
+          "label": "Kapsayıcı"
+        },
+        "image_overlay_opacity": {
+          "label": "Yer paylaşımı opaklığı"
+        },
+        "show_text_below": {
+          "label": "Kapsayıcı"
+        },
+        "image_height": {
+          "label": "Yükseklik",
+          "options__1": {
+            "label": "İlk görsele uyarla"
+          },
+          "options__2": {
+            "label": "Küçük"
+          },
+          "options__3": {
+            "label": "Orta"
+          },
+          "options__4": {
+            "label": "Büyük"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Üst Sol"
+          },
+          "options__2": {
+            "label": "Üst Orta"
+          },
+          "options__3": {
+            "label": "Üst Sağ"
+          },
+          "options__4": {
+            "label": "Orta Sol"
+          },
+          "options__5": {
+            "label": "Orta Kısmın Ortası"
+          },
+          "options__6": {
+            "label": "Orta Sağ"
+          },
+          "options__7": {
+            "label": "Alt Sol"
+          },
+          "options__8": {
+            "label": "Alt Orta"
+          },
+          "options__9": {
+            "label": "Alt Sağ"
+          },
+          "label": "Konum"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Sol"
+          },
+          "options__2": {
+            "label": "Orta"
+          },
+          "options__3": {
+            "label": "Sağ"
+          },
+          "label": "Hizalama"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Sol"
+          },
+          "options__2": {
+            "label": "Orta"
+          },
+          "options__3": {
+            "label": "Sağ"
+          },
+          "label": "Hizalama"
+        },
+        "mobile": {
+          "content": "Mobil düzen"
+        },
+        "content": {
+          "content": "İçerik"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Başlık",
+          "settings": {
+            "heading": {
+              "label": "Başlık",
+              "default": "Görsel banner'ı"
+            }
+          }
+        },
+        "text": {
+          "name": "Metin rengi",
+          "settings": {
+            "text": {
+              "label": "Metin",
+              "default": "Müşterilerle şablonlardaki banner görseller veya içerikler hakkında ayrıntıları paylaşın."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Gövde"
+              },
+              "options__2": {
+                "label": "Alt yazı"
+              },
+              "options__3": {
+                "label": "Büyük harf"
+              },
+              "label": "Stil"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Düğmeler",
+          "settings": {
+            "button_label_1": {
+              "label": "Etiket",
+              "info": "Gizlemek için boş bırakın",
+              "default": "Düğme etiketi"
+            },
+            "button_link_1": {
+              "label": "Bağlantı"
+            },
+            "button_style_secondary_1": {
+              "label": "Dış çizgi stili"
+            },
+            "button_label_2": {
+              "label": "Etiket",
+              "info": "Gizlemek için boş bırakın",
+              "default": "Düğme etiketi"
+            },
+            "button_link_2": {
+              "label": "Bağlantı"
+            },
+            "button_style_secondary_2": {
+              "label": "Dış çizgi stili"
+            },
+            "header_1": {
+              "content": "Düğme 1"
+            },
+            "header_2": {
+              "content": "Düğme 2"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Kahraman banner'ı"
+      }
+    },
     "image-with-text": {
       "name": "Metin içeren görsel",
       "settings": {

@@ -1162,6 +1162,175 @@
         "name": "Obrázkový banner"
       }
     },
+    "hero-banner": {
+      "name": "Hrdina banner",
+      "settings": {
+        "image": {
+          "label": "Obrázek 1"
+        },
+        "image_2": {
+          "label": "Obrázek 2"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "stack_images_on_mobile": {
+          "label": "Vrstvit obrázky"
+        },
+        "show_text_box": {
+          "label": "Kontejner"
+        },
+        "image_overlay_opacity": {
+          "label": "Neprůhlednost překryvu"
+        },
+        "show_text_below": {
+          "label": "Kontejner"
+        },
+        "image_height": {
+          "label": "Výška",
+          "options__1": {
+            "label": "Přizpůsobení prvnímu obrázku"
+          },
+          "options__2": {
+            "label": "Malý"
+          },
+          "options__3": {
+            "label": "Střední"
+          },
+          "options__4": {
+            "label": "Velký"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Nahoře vlevo"
+          },
+          "options__2": {
+            "label": "Nahoře ve středu"
+          },
+          "options__3": {
+            "label": "Nahoře vpravo"
+          },
+          "options__4": {
+            "label": "Uprostřed vlevo"
+          },
+          "options__5": {
+            "label": "Uprostřed ve středu"
+          },
+          "options__6": {
+            "label": "Uprostřed vpravo"
+          },
+          "options__7": {
+            "label": "Dole vlevo"
+          },
+          "options__8": {
+            "label": "Dole ve středu"
+          },
+          "options__9": {
+            "label": "Dole vpravo"
+          },
+          "label": "Pozice"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Doleva"
+          },
+          "options__2": {
+            "label": "Na střed"
+          },
+          "options__3": {
+            "label": "Doprava"
+          },
+          "label": "Zarovnání"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Doleva"
+          },
+          "options__2": {
+            "label": "Na střed"
+          },
+          "options__3": {
+            "label": "Doprava"
+          },
+          "label": "Zarovnání"
+        },
+        "mobile": {
+          "content": "Mobilní rozvržení"
+        },
+        "content": {
+          "content": "obsah"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Nadpis",
+          "settings": {
+            "heading": {
+              "label": "Nadpis",
+              "default": "Obrázkový banner"
+            }
+          }
+        },
+        "text": {
+          "name": "Text",
+          "settings": {
+            "text": {
+              "label": "Text",
+              "default": "Poskytněte zákazníkům podrobnosti o obrázcích banneru nebo obsahu v šabloně."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Hlavní část"
+              },
+              "options__2": {
+                "label": "Podtitul"
+              },
+              "options__3": {
+                "label": "Velká písmena"
+              },
+              "label": "Styl"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Tlačítka",
+          "settings": {
+            "button_label_1": {
+              "label": "Štítek",
+              "info": "Pro skrytí nechte prázdné",
+              "default": "Text tlačítka"
+            },
+            "button_link_1": {
+              "label": "Odkaz"
+            },
+            "button_style_secondary_1": {
+              "label": "Styl osnovy"
+            },
+            "button_label_2": {
+              "label": "Štítek",
+              "info": "Pro skrytí nechte prázdné",
+              "default": "Text tlačítka"
+            },
+            "button_link_2": {
+              "label": "Odkaz"
+            },
+            "button_style_secondary_2": {
+              "label": "Styl osnovy"
+            },
+            "header_1": {
+              "content": "Tlačítko 1"
+            },
+            "header_2": {
+              "content": "Tlačítko 2"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Hrdina banner"
+      }
+    },
     "image-with-text": {
       "name": "Obrázek s textem",
       "settings": {

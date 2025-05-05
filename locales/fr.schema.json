@@ -1162,6 +1162,175 @@
         "name": "Bannière avec image"
       }
     },
+    "hero-banner": {
+      "name": "Bannière de héros",
+      "settings": {
+        "image": {
+          "label": "Image 1"
+        },
+        "image_2": {
+          "label": "Image 2"
+        },
+        "video": {
+          "label": "Vidéo"
+        },
+        "stack_images_on_mobile": {
+          "label": "Empiler les images"
+        },
+        "show_text_box": {
+          "label": "Conteneur"
+        },
+        "image_overlay_opacity": {
+          "label": "Opacité de la superposition"
+        },
+        "show_text_below": {
+          "label": "Conteneur"
+        },
+        "image_height": {
+          "label": "Hauteur",
+          "options__1": {
+            "label": "Adapter à la première image"
+          },
+          "options__2": {
+            "label": "Petit"
+          },
+          "options__3": {
+            "label": "Moyenne"
+          },
+          "options__4": {
+            "label": "Grand"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "En haut à gauche"
+          },
+          "options__2": {
+            "label": "En haut au centre"
+          },
+          "options__3": {
+            "label": "En haut à droite"
+          },
+          "options__4": {
+            "label": "Au milieu à gauche"
+          },
+          "options__5": {
+            "label": "Centré au milieu"
+          },
+          "options__6": {
+            "label": "Au milieu à droite"
+          },
+          "options__7": {
+            "label": "En bas à gauche"
+          },
+          "options__8": {
+            "label": "En bas au centre"
+          },
+          "options__9": {
+            "label": "En bas à droite"
+          },
+          "label": "Position"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Gauche"
+          },
+          "options__2": {
+            "label": "Centre"
+          },
+          "options__3": {
+            "label": "Droite"
+          },
+          "label": "Alignement"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Gauche"
+          },
+          "options__2": {
+            "label": "Centre"
+          },
+          "options__3": {
+            "label": "Droite"
+          },
+          "label": "Alignement"
+        },
+        "mobile": {
+          "content": "Mise en page sur mobile"
+        },
+        "content": {
+          "content": "Contenu"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Titre",
+          "settings": {
+            "heading": {
+              "label": "Titre",
+              "default": "Bannière avec image"
+            }
+          }
+        },
+        "text": {
+          "name": "Texte",
+          "settings": {
+            "text": {
+              "label": "Texte",
+              "default": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Corps"
+              },
+              "options__2": {
+                "label": "Sous-titre"
+              },
+              "options__3": {
+                "label": "Majuscule"
+              },
+              "label": "Style"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Boutons",
+          "settings": {
+            "button_label_1": {
+              "label": "Étiquette",
+              "info": "Laisser vide pour masquer",
+              "default": "Texte du bouton"
+            },
+            "button_link_1": {
+              "label": "Lien"
+            },
+            "button_style_secondary_1": {
+              "label": "Style de contour"
+            },
+            "button_label_2": {
+              "label": "Étiquette",
+              "info": "Laisser vide pour masquer",
+              "default": "Texte du bouton"
+            },
+            "button_link_2": {
+              "label": "Lien"
+            },
+            "button_style_secondary_2": {
+              "label": "Style de contour"
+            },
+            "header_1": {
+              "content": "Bouton 1"
+            },
+            "header_2": {
+              "content": "Bouton 2"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Bannière de héros"
+      }
+    },
     "image-with-text": {
       "name": "Image avec texte",
       "settings": {

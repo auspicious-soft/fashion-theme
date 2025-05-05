@@ -1162,6 +1162,175 @@
         "name": "Billedbanner"
       }
     },
+    "hero-banner": {
+      "name": "Heltebanner",
+      "settings": {
+        "image": {
+          "label": "Billede 1"
+        },
+        "image_2": {
+          "label": "Billede 2"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "stack_images_on_mobile": {
+          "label": "Stabl billeder"
+        },
+        "show_text_box": {
+          "label": "Beholder"
+        },
+        "image_overlay_opacity": {
+          "label": "Overlejringens uigennemsigtighed"
+        },
+        "show_text_below": {
+          "label": "Beholder"
+        },
+        "image_height": {
+          "label": "Højde",
+          "options__1": {
+            "label": "Tilpas til første billede"
+          },
+          "options__2": {
+            "label": "Lille"
+          },
+          "options__3": {
+            "label": "Mellem"
+          },
+          "options__4": {
+            "label": "Stor"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Øverst til venstre"
+          },
+          "options__2": {
+            "label": "Øverst i midten"
+          },
+          "options__3": {
+            "label": "Øverst til højre"
+          },
+          "options__4": {
+            "label": "Midt på til venstre"
+          },
+          "options__5": {
+            "label": "Midt på centreret"
+          },
+          "options__6": {
+            "label": "Midt på til højre"
+          },
+          "options__7": {
+            "label": "Nederst til venstre"
+          },
+          "options__8": {
+            "label": "Nederst i midten"
+          },
+          "options__9": {
+            "label": "Nederst til højre"
+          },
+          "label": "Placering"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Venstre"
+          },
+          "options__2": {
+            "label": "Centreret"
+          },
+          "options__3": {
+            "label": "Højre"
+          },
+          "label": "Justering"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Venstre"
+          },
+          "options__2": {
+            "label": "Centreret"
+          },
+          "options__3": {
+            "label": "Højre"
+          },
+          "label": "Justering"
+        },
+        "mobile": {
+          "content": "Mobillayout"
+        },
+        "content": {
+          "content": "Indhold"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Overskrift",
+          "settings": {
+            "heading": {
+              "label": "Overskrift",
+              "default": "Billedbanner"
+            }
+          }
+        },
+        "text": {
+          "name": "Tekst",
+          "settings": {
+            "text": {
+              "label": "Tekst",
+              "default": "Giv kunder oplysninger om bannerbillederne eller indholdet i skabelonen."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Brødtekst"
+              },
+              "options__2": {
+                "label": "Undertekst"
+              },
+              "options__3": {
+                "label": "Store bogstaver"
+              },
+              "label": "Stil"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Knapper",
+          "settings": {
+            "button_label_1": {
+              "label": "Etiket",
+              "info": "Lad stå tom for at skjule",
+              "default": "Knaptekst"
+            },
+            "button_link_1": {
+              "label": "Link"
+            },
+            "button_style_secondary_1": {
+              "label": "Rammetypografi"
+            },
+            "button_label_2": {
+              "label": "Etiket",
+              "info": "Lad stå tom for at skjule",
+              "default": "Knaptekst"
+            },
+            "button_link_2": {
+              "label": "Link"
+            },
+            "button_style_secondary_2": {
+              "label": "Rammetypografi"
+            },
+            "header_1": {
+              "content": "Knap 1"
+            },
+            "header_2": {
+              "content": "Knap 2"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Heltebanner"
+      }
+    },
     "image-with-text": {
       "name": "Billede med tekst",
       "settings": {

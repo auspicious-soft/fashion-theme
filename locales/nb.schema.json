@@ -1162,6 +1162,175 @@
         "name": "Bildeoverskrift"
       }
     },
+    "hero-banner": {
+      "name": "helte banner",
+      "settings": {
+        "image": {
+          "label": "Bilde 1"
+        },
+        "image_2": {
+          "label": "Bilde 2"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "stack_images_on_mobile": {
+          "label": "Stable bilder"
+        },
+        "show_text_box": {
+          "label": "Beholder"
+        },
+        "image_overlay_opacity": {
+          "label": "Overleggets gjennomsiktighet"
+        },
+        "show_text_below": {
+          "label": "Beholder"
+        },
+        "image_height": {
+          "label": "Høyde",
+          "options__1": {
+            "label": "Tilpass etter første bilde"
+          },
+          "options__2": {
+            "label": "Liten"
+          },
+          "options__3": {
+            "label": "Medie"
+          },
+          "options__4": {
+            "label": "Stor"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Øverst til venstre"
+          },
+          "options__2": {
+            "label": "Toppsentrert"
+          },
+          "options__3": {
+            "label": "Øverst til høyre"
+          },
+          "options__4": {
+            "label": "Midt til venstre"
+          },
+          "options__5": {
+            "label": "Midt i senter"
+          },
+          "options__6": {
+            "label": "Midt til høyre"
+          },
+          "options__7": {
+            "label": "Nederst til venstre"
+          },
+          "options__8": {
+            "label": "Bunnsentrert"
+          },
+          "options__9": {
+            "label": "Nederst til høyre"
+          },
+          "label": "Posisjon"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Venstre"
+          },
+          "options__2": {
+            "label": "Sentrert"
+          },
+          "options__3": {
+            "label": "Høyre"
+          },
+          "label": "Justering"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Venstre"
+          },
+          "options__2": {
+            "label": "Sentrert"
+          },
+          "options__3": {
+            "label": "Høyre"
+          },
+          "label": "Justering"
+        },
+        "mobile": {
+          "content": "Mobillayout"
+        },
+        "content": {
+          "content": "Innhold"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Overskrift",
+          "settings": {
+            "heading": {
+              "label": "Overskrift",
+              "default": "Bildeoverskrift"
+            }
+          }
+        },
+        "text": {
+          "name": "Tekst",
+          "settings": {
+            "text": {
+              "label": "Tekst",
+              "default": "Gi kundene mer informasjon om bannerbildet/-bildene eller innholdet i malen."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Brødtekst"
+              },
+              "options__2": {
+                "label": "Undertekst"
+              },
+              "options__3": {
+                "label": "Store bokstaver"
+              },
+              "label": "Stil"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Knapper",
+          "settings": {
+            "button_label_1": {
+              "label": "Etikett",
+              "info": "La stå tom for å skjule",
+              "default": "Knappetikett"
+            },
+            "button_link_1": {
+              "label": "Kobling"
+            },
+            "button_style_secondary_1": {
+              "label": "Stil på omriss"
+            },
+            "button_label_2": {
+              "label": "Etikett",
+              "info": "La stå tom for å skjule",
+              "default": "Knappetikett"
+            },
+            "button_link_2": {
+              "label": "Kobling"
+            },
+            "button_style_secondary_2": {
+              "label": "Stil på omriss"
+            },
+            "header_1": {
+              "content": "Knapp 1"
+            },
+            "header_2": {
+              "content": "Knapp 2"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "helte banner"
+      }
+    },
     "image-with-text": {
       "name": "Bilde med tekst",
       "settings": {

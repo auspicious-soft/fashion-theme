@@ -1162,6 +1162,175 @@
         "name": "이미지 배너"
       }
     },
+    "hero-banner": {
+      "name": "영웅 배너",
+      "settings": {
+        "image": {
+          "label": "이미지 1"
+        },
+        "image_2": {
+          "label": "이미지 2"
+        },
+        "video": {
+          "label": "동영상"
+        },
+        "stack_images_on_mobile": {
+          "label": "스택 이미지"
+        },
+        "show_text_box": {
+          "label": "컨테이너"
+        },
+        "image_overlay_opacity": {
+          "label": "오버레이 불투명도"
+        },
+        "show_text_below": {
+          "label": "컨테이너"
+        },
+        "image_height": {
+          "label": "높이",
+          "options__1": {
+            "label": "첫 번째 이미지에 맞춤"
+          },
+          "options__2": {
+            "label": "작게"
+          },
+          "options__3": {
+            "label": "보통"
+          },
+          "options__4": {
+            "label": "크게"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "왼쪽 상단"
+          },
+          "options__2": {
+            "label": "가운데 상단"
+          },
+          "options__3": {
+            "label": "오른쪽 상단"
+          },
+          "options__4": {
+            "label": "왼쪽 중간"
+          },
+          "options__5": {
+            "label": "가운데 중간"
+          },
+          "options__6": {
+            "label": "오른쪽 중간"
+          },
+          "options__7": {
+            "label": "왼쪽 하단"
+          },
+          "options__8": {
+            "label": "가운데 하단"
+          },
+          "options__9": {
+            "label": "오른쪽 하단"
+          },
+          "label": "위치"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "왼쪽"
+          },
+          "options__2": {
+            "label": "가운데"
+          },
+          "options__3": {
+            "label": "오른쪽"
+          },
+          "label": "정렬"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "왼쪽"
+          },
+          "options__2": {
+            "label": "가운데"
+          },
+          "options__3": {
+            "label": "오른쪽"
+          },
+          "label": "정렬"
+        },
+        "mobile": {
+          "content": "모바일 레이아웃"
+        },
+        "content": {
+          "content": "콘텐츠"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": {
+              "label": "제목",
+              "default": "이미지 배너"
+            }
+          },
+          "name": "제목"
+        },
+        "text": {
+          "settings": {
+            "text": {
+              "label": "텍스트",
+              "default": "템플릿에서 배너 이미지 또는 콘텐츠의 세부 정보를 고객에게 제공하십시오."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "본문"
+              },
+              "options__2": {
+                "label": "소제목"
+              },
+              "options__3": {
+                "label": "대문자"
+              },
+              "label": "스타일"
+            }
+          },
+          "name": "텍스트"
+        },
+        "buttons": {
+          "settings": {
+            "button_label_1": {
+              "label": "레이블",
+              "info": "숨기려면 비워 둡니다",
+              "default": "버튼 레이블"
+            },
+            "button_link_1": {
+              "label": "링크"
+            },
+            "button_style_secondary_1": {
+              "label": "윤곽선 스타일"
+            },
+            "button_label_2": {
+              "label": "레이블",
+              "info": "숨기려면 비워 둡니다",
+              "default": "버튼 레이블"
+            },
+            "button_link_2": {
+              "label": "링크"
+            },
+            "button_style_secondary_2": {
+              "label": "윤곽선 스타일"
+            },
+            "header_1": {
+              "content": "버튼 1"
+            },
+            "header_2": {
+              "content": "버튼 2"
+            }
+          },
+          "name": "버튼"
+        }
+      },
+      "presets": {
+        "name": "영웅 배너"
+      }
+    },
     "image-with-text": {
       "name": "텍스트 포함 이미지",
       "settings": {

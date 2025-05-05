@@ -1162,6 +1162,175 @@
         "name": "Kuvabanneri"
       }
     },
+    "hero-banner": {
+      "name": "Sankaribanneri",
+      "settings": {
+        "image": {
+          "label": "Kuva 1"
+        },
+        "image_2": {
+          "label": "Kuva 2"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "stack_images_on_mobile": {
+          "label": "Pinoa kuvat"
+        },
+        "show_text_box": {
+          "label": "Säiliö"
+        },
+        "image_overlay_opacity": {
+          "label": "Peittokuvan läpikuultavuus"
+        },
+        "show_text_below": {
+          "label": "Säiliö"
+        },
+        "image_height": {
+          "label": "Korkeus",
+          "options__1": {
+            "label": "Mukauta ensimmäisen kuvan mukaan"
+          },
+          "options__2": {
+            "label": "Pieni"
+          },
+          "options__3": {
+            "label": "Keskisuuri"
+          },
+          "options__4": {
+            "label": "Suuri"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Ylhäällä vasemmalla"
+          },
+          "options__2": {
+            "label": "Keskellä ylhäällä"
+          },
+          "options__3": {
+            "label": "Ylhäällä oikealla"
+          },
+          "options__4": {
+            "label": "Keskellä vasemmalla"
+          },
+          "options__5": {
+            "label": "Keskitetty keskelle"
+          },
+          "options__6": {
+            "label": "Keskellä oikealla"
+          },
+          "options__7": {
+            "label": "Alhaalla vasemmalla"
+          },
+          "options__8": {
+            "label": "Keskellä alhaalla"
+          },
+          "options__9": {
+            "label": "Alhaalla oikealla"
+          },
+          "label": "Sijainti"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Vasemmalla"
+          },
+          "options__2": {
+            "label": "Keskitetty"
+          },
+          "options__3": {
+            "label": "Oikealla"
+          },
+          "label": "Tasaus"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Vasemmalla"
+          },
+          "options__2": {
+            "label": "Keskitetty"
+          },
+          "options__3": {
+            "label": "Oikealla"
+          },
+          "label": "Tasaus"
+        },
+        "mobile": {
+          "content": "Mobiiliasettelu"
+        },
+        "content": {
+          "content": "Sisältö"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Otsikko",
+          "settings": {
+            "heading": {
+              "label": "Otsikko",
+              "default": "Kuvabanneri"
+            }
+          }
+        },
+        "text": {
+          "name": "Teksti",
+          "settings": {
+            "text": {
+              "label": "Teksti",
+              "default": "Anna asiakkaille tietoa bannerin kuvista tai sisällöstä mallissa."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Leipäteksti"
+              },
+              "options__2": {
+                "label": "Alaotsikko"
+              },
+              "options__3": {
+                "label": "Isot kirjaimet"
+              },
+              "label": "Tyyli"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Painikkeet",
+          "settings": {
+            "button_label_1": {
+              "label": "Merkintä",
+              "info": "Jos haluat piilottaa, jätä tyhjäksi",
+              "default": "Tekstipainike"
+            },
+            "button_link_1": {
+              "label": "Linkki"
+            },
+            "button_style_secondary_1": {
+              "label": "Ääriviivatyyli"
+            },
+            "button_label_2": {
+              "label": "Merkintä",
+              "info": "Jos haluat piilottaa, jätä tyhjäksi",
+              "default": "Tekstipainike"
+            },
+            "button_link_2": {
+              "label": "Linkki"
+            },
+            "button_style_secondary_2": {
+              "label": "Ääriviivatyyli"
+            },
+            "header_1": {
+              "content": "Painike 1"
+            },
+            "header_2": {
+              "content": "Painike 2"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Sankaribanneri"
+      }
+    },
     "image-with-text": {
       "name": "Kuva tekstillä",
       "settings": {

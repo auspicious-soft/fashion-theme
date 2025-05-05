@@ -1162,6 +1162,175 @@
         "name": "Baner z obrazem"
       }
     },
+    "hero-banner": {
+      "name": "Baner z bohatera",
+      "settings": {
+        "image": {
+          "label": "Obraz 1"
+        },
+        "image_2": {
+          "label": "Obraz 2"
+        },
+        "video": {
+          "label": "Wideo"
+        },
+        "stack_images_on_mobile": {
+          "label": "Układaj obrazy w stosy"
+        },
+        "show_text_box": {
+          "label": "Kontener"
+        },
+        "image_overlay_opacity": {
+          "label": "Nieprzezroczystość nakładki"
+        },
+        "show_text_below": {
+          "label": "Kontener"
+        },
+        "image_height": {
+          "label": "Wysokość",
+          "options__1": {
+            "label": "Dostosuj do pierwszego obrazu"
+          },
+          "options__2": {
+            "label": "Mały"
+          },
+          "options__3": {
+            "label": "Średni"
+          },
+          "options__4": {
+            "label": "Duży"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Do góry, do lewej"
+          },
+          "options__2": {
+            "label": "Do góry, wyśrodkowany"
+          },
+          "options__3": {
+            "label": "Do góry, do prawej"
+          },
+          "options__4": {
+            "label": "Do środka, do lewej"
+          },
+          "options__5": {
+            "label": "Do środka, wyśrodkowany"
+          },
+          "options__6": {
+            "label": "Do środka, do prawej"
+          },
+          "options__7": {
+            "label": "Na dole, do lewej"
+          },
+          "options__8": {
+            "label": "Na dole, pośrodku"
+          },
+          "options__9": {
+            "label": "Na dole, do prawej"
+          },
+          "label": "Pozycja"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Lewa strona"
+          },
+          "options__2": {
+            "label": "Środek"
+          },
+          "options__3": {
+            "label": "Prawa strona"
+          },
+          "label": "Wyrównanie"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Lewa strona"
+          },
+          "options__2": {
+            "label": "Środek"
+          },
+          "options__3": {
+            "label": "Prawa strona"
+          },
+          "label": "Wyrównanie"
+        },
+        "mobile": {
+          "content": "Układ na urządzeniu mobilnym"
+        },
+        "content": {
+          "content": "Treść"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Nagłówek",
+          "settings": {
+            "heading": {
+              "label": "Nagłówek",
+              "default": "Baner z obrazem"
+            }
+          }
+        },
+        "text": {
+          "name": "Tekst",
+          "settings": {
+            "text": {
+              "label": "Tekst",
+              "default": "Podaj klientom szczegóły dotyczące obrazów banerów lub treści w szablonie."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Tekst podstawowy"
+              },
+              "options__2": {
+                "label": "Podtytuł"
+              },
+              "options__3": {
+                "label": "Duże litery"
+              },
+              "label": "Styl"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Przyciski",
+          "settings": {
+            "button_label_1": {
+              "label": "Etykieta",
+              "info": "Pozostaw puste, aby ukryć",
+              "default": "Przycisk z etykietą"
+            },
+            "button_link_1": {
+              "label": "Link"
+            },
+            "button_style_secondary_1": {
+              "label": "Styl konspektu"
+            },
+            "button_label_2": {
+              "label": "Etykieta",
+              "info": "Pozostaw puste, aby ukryć",
+              "default": "Przycisk z etykietą"
+            },
+            "button_link_2": {
+              "label": "Link"
+            },
+            "button_style_secondary_2": {
+              "label": "Styl konspektu"
+            },
+            "header_1": {
+              "content": "Przycisk 1"
+            },
+            "header_2": {
+              "content": "Przycisk 2"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Baner z bohatera"
+      }
+    },
     "image-with-text": {
       "name": "Obraz z tekstem",
       "settings": {

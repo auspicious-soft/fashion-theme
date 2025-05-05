@@ -1162,6 +1162,175 @@
         "name": "画像バナー"
       }
     },
+    "hero-banner": {
+      "name": "ヒーローバナー",
+      "settings": {
+        "image": {
+          "label": "画像1"
+        },
+        "image_2": {
+          "label": "画像2"
+        },
+        "video": {
+          "label": "ビデオ"
+        },
+        "stack_images_on_mobile": {
+          "label": "画像を重ねる"
+        },
+        "show_text_box": {
+          "label": "コンテナー"
+        },
+        "image_overlay_opacity": {
+          "label": "オーバーレイの不透明率"
+        },
+        "show_text_below": {
+          "label": "コンテナー"
+        },
+        "image_height": {
+          "label": "高さ",
+          "options__1": {
+            "label": "最初の画像に合わせる"
+          },
+          "options__2": {
+            "label": "小"
+          },
+          "options__3": {
+            "label": "中"
+          },
+          "options__4": {
+            "label": "大"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "左上"
+          },
+          "options__2": {
+            "label": "中央上"
+          },
+          "options__3": {
+            "label": "右上"
+          },
+          "options__4": {
+            "label": "左中央"
+          },
+          "options__5": {
+            "label": "中央"
+          },
+          "options__6": {
+            "label": "右中央"
+          },
+          "options__7": {
+            "label": "左下"
+          },
+          "options__8": {
+            "label": "中央下"
+          },
+          "options__9": {
+            "label": "右下"
+          },
+          "label": "位置"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "左"
+          },
+          "options__2": {
+            "label": "中央"
+          },
+          "options__3": {
+            "label": "右"
+          },
+          "label": "配置"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "左"
+          },
+          "options__2": {
+            "label": "中央"
+          },
+          "options__3": {
+            "label": "右"
+          },
+          "label": "配置"
+        },
+        "mobile": {
+          "content": "モバイルのレイアウト"
+        },
+        "content": {
+          "content": "コンテンツ"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": {
+              "label": "見出し",
+              "default": "画像バナー"
+            }
+          },
+          "name": "見出し"
+        },
+        "text": {
+          "settings": {
+            "text": {
+              "label": "テキスト",
+              "default": "テンプレートのバナー画像またはコンテンツに関する詳細をお客様に提供します。"
+            },
+            "text_style": {
+              "options__1": {
+                "label": "本文"
+              },
+              "options__2": {
+                "label": "字幕"
+              },
+              "options__3": {
+                "label": "大文字"
+              },
+              "label": "スタイル"
+            }
+          },
+          "name": "テキスト"
+        },
+        "buttons": {
+          "settings": {
+            "button_label_1": {
+              "label": "ラベル",
+              "info": "非表示にするには空白のままにしてください。",
+              "default": "ボタンのラベル"
+            },
+            "button_link_1": {
+              "label": "リンク"
+            },
+            "button_style_secondary_1": {
+              "label": "アウトラインスタイル"
+            },
+            "button_label_2": {
+              "label": "ラベル",
+              "info": "非表示にするには空白のままにしてください。",
+              "default": "ボタンのラベル"
+            },
+            "button_link_2": {
+              "label": "リンク"
+            },
+            "button_style_secondary_2": {
+              "label": "アウトラインスタイル"
+            },
+            "header_1": {
+              "content": "ボタン1"
+            },
+            "header_2": {
+              "content": "ボタン2"
+            }
+          },
+          "name": "ボタン"
+        }
+      },
+      "presets": {
+        "name": "ヒーローバナー"
+      }
+    },
     "image-with-text": {
       "name": "テキスト付き画像",
       "settings": {

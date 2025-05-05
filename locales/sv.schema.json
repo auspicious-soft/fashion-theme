@@ -1162,6 +1162,175 @@
         "name": "Bildbanner"
       }
     },
+    "hero-banner": {
+      "name": "Hjälte banner",
+      "settings": {
+        "image": {
+          "label": "Bild 1"
+        },
+        "image_2": {
+          "label": "Bild 2"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "stack_images_on_mobile": {
+          "label": "Stapla bilder"
+        },
+        "show_text_box": {
+          "label": "Behållare"
+        },
+        "image_overlay_opacity": {
+          "label": "Överlagring av opacitet"
+        },
+        "show_text_below": {
+          "label": "Behållare"
+        },
+        "image_height": {
+          "label": "Höjd",
+          "options__1": {
+            "label": "Anpassa efter första bilden"
+          },
+          "options__2": {
+            "label": "Liten"
+          },
+          "options__3": {
+            "label": "Medel"
+          },
+          "options__4": {
+            "label": "Stor"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Längst upp till vänster"
+          },
+          "options__2": {
+            "label": "Längst upp i mitten"
+          },
+          "options__3": {
+            "label": "Längst upp till höger"
+          },
+          "options__4": {
+            "label": "Mitten till vänster"
+          },
+          "options__5": {
+            "label": "Mitten centrerat"
+          },
+          "options__6": {
+            "label": "Mitten till höger"
+          },
+          "options__7": {
+            "label": "Längst ner till vänster"
+          },
+          "options__8": {
+            "label": "Längst ner i mitten"
+          },
+          "options__9": {
+            "label": "Längst ner till höger"
+          },
+          "label": "Position"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Vänster"
+          },
+          "options__2": {
+            "label": "Centrera"
+          },
+          "options__3": {
+            "label": "Höger"
+          },
+          "label": "Justering"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Vänster"
+          },
+          "options__2": {
+            "label": "Centrera"
+          },
+          "options__3": {
+            "label": "Höger"
+          },
+          "label": "Justering"
+        },
+        "mobile": {
+          "content": "Mobil layout"
+        },
+        "content": {
+          "content": "Innehåll"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": {
+              "label": "Rubrik",
+              "default": "Bildbanner"
+            }
+          },
+          "name": "Rubrik"
+        },
+        "text": {
+          "settings": {
+            "text": {
+              "label": "Text",
+              "default": "Ge kunder information om bannerbild(er) eller innehåll i mallen."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Brödtext"
+              },
+              "options__2": {
+                "label": "Underrubrik"
+              },
+              "options__3": {
+                "label": "Stora bokstäver"
+              },
+              "label": "Stil"
+            }
+          },
+          "name": "Text"
+        },
+        "buttons": {
+          "settings": {
+            "button_label_1": {
+              "label": "Etikett",
+              "info": "Lämna tomt för att dölja",
+              "default": "Knappetikett"
+            },
+            "button_link_1": {
+              "label": "Länk"
+            },
+            "button_style_secondary_1": {
+              "label": "Konturstil"
+            },
+            "button_label_2": {
+              "label": "Etikett",
+              "info": "Lämna tomt för att dölja",
+              "default": "Knappetikett"
+            },
+            "button_link_2": {
+              "label": "Länk"
+            },
+            "button_style_secondary_2": {
+              "label": "Konturstil"
+            },
+            "header_1": {
+              "content": "Knapp 1"
+            },
+            "header_2": {
+              "content": "Knapp 2"
+            }
+          },
+          "name": "Knappar"
+        }
+      },
+      "presets": {
+        "name": "Hjälte banner"
+      }
+    },
     "image-with-text": {
       "name": "Bild med text",
       "settings": {

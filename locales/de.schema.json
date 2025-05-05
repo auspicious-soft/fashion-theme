@@ -1162,6 +1162,175 @@
         "name": "Bild-Banner"
       }
     },
+    "hero-banner": {
+      "name": "Heldenbanner",
+      "settings": {
+        "image": {
+          "label": "Bild 1"
+        },
+        "image_2": {
+          "label": "Bild 2"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "stack_images_on_mobile": {
+          "label": "Gestapelte Bilder"
+        },
+        "show_text_box": {
+          "label": "Container"
+        },
+        "image_overlay_opacity": {
+          "label": "Überlagerungsdeckkraft"
+        },
+        "show_text_below": {
+          "label": "Container"
+        },
+        "image_height": {
+          "label": "Höhe",
+          "options__1": {
+            "label": "An erstes Bild anpassen"
+          },
+          "options__2": {
+            "label": "Klein"
+          },
+          "options__3": {
+            "label": "Mittel"
+          },
+          "options__4": {
+            "label": "Groß"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Oben links"
+          },
+          "options__2": {
+            "label": "Oben zentriert"
+          },
+          "options__3": {
+            "label": "Oben rechts"
+          },
+          "options__4": {
+            "label": "Mitte links"
+          },
+          "options__5": {
+            "label": "Mitte zentriert"
+          },
+          "options__6": {
+            "label": "Mitte rechts"
+          },
+          "options__7": {
+            "label": "Unten links"
+          },
+          "options__8": {
+            "label": "Unten zentriert"
+          },
+          "options__9": {
+            "label": "Unten rechts"
+          },
+          "label": "Position"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Zentriert"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Ausrichtung"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Zentriert"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Ausrichtung"
+        },
+        "mobile": {
+          "content": "Mobiles Layout"
+        },
+        "content": {
+          "content": "Inhalt"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Titel",
+          "settings": {
+            "heading": {
+              "label": "Überschrift",
+              "default": "Bild-Banner"
+            }
+          }
+        },
+        "text": {
+          "name": "Text",
+          "settings": {
+            "text": {
+              "label": "Text",
+              "default": "Stelle Kunden Details zu Banner-Bildern oder Inhalt auf der Vorlage zur Verfügung."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Nachricht"
+              },
+              "options__2": {
+                "label": "Untertitel"
+              },
+              "options__3": {
+                "label": "Großbuchstaben"
+              },
+              "label": "Optik"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Schaltflächen",
+          "settings": {
+            "button_label_1": {
+              "label": "Etikett",
+              "info": "Zum Ausblenden leer lassen",
+              "default": "Schaltflächenbeschriftung"
+            },
+            "button_link_1": {
+              "label": "Link"
+            },
+            "button_style_secondary_1": {
+              "label": "Umriss-Stil"
+            },
+            "button_label_2": {
+              "label": "Etikett",
+              "info": "Zum Ausblenden leer lassen",
+              "default": "Schaltflächenbeschriftung"
+            },
+            "button_link_2": {
+              "label": "Link"
+            },
+            "button_style_secondary_2": {
+              "label": "Umriss-Stil"
+            },
+            "header_1": {
+              "content": "Schaltfläche 1"
+            },
+            "header_2": {
+              "content": "Schaltfläche 2"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Heldenbanner"
+      }
+    },
     "image-with-text": {
       "name": "Bild mit Text",
       "settings": {

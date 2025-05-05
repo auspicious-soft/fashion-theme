@@ -1162,6 +1162,175 @@
         "name": "Bannerafbeelding"
       }
     },
+    "Hero-banner": {
+      "name": "Helden spandoek",
+      "settings": {
+        "image": {
+          "label": "Afbeelding 1"
+        },
+        "image_2": {
+          "label": "Afbeelding 2"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "stack_images_on_mobile": {
+          "label": "Afbeeldingen stapelen"
+        },
+        "show_text_box": {
+          "label": "Container"
+        },
+        "image_overlay_opacity": {
+          "label": "Opaciteit van overlay"
+        },
+        "show_text_below": {
+          "label": "Container"
+        },
+        "image_height": {
+          "label": "Hoogte",
+          "options__1": {
+            "label": "Aanpassen aan eerste afbeelding"
+          },
+          "options__2": {
+            "label": "Klein"
+          },
+          "options__3": {
+            "label": "Gemiddeld"
+          },
+          "options__4": {
+            "label": "Groot"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Linksboven"
+          },
+          "options__2": {
+            "label": "Centraal boven"
+          },
+          "options__3": {
+            "label": "Rechtsboven"
+          },
+          "options__4": {
+            "label": "Midden links"
+          },
+          "options__5": {
+            "label": "Centraal midden"
+          },
+          "options__6": {
+            "label": "Midden rechts"
+          },
+          "options__7": {
+            "label": "Linksonder"
+          },
+          "options__8": {
+            "label": "Centraal onder"
+          },
+          "options__9": {
+            "label": "Rechtsonder"
+          },
+          "label": "Positie"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Centraal"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Uitlijning"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Centraal"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Uitlijning"
+        },
+        "mobile": {
+          "content": "Opmaak voor mobiel"
+        },
+        "content": {
+          "content": "Content"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Opschrift",
+          "settings": {
+            "heading": {
+              "label": "Opschrift",
+              "default": "Banner voor afbeeldingen"
+            }
+          }
+        },
+        "text": {
+          "name": "Tekstkleur",
+          "settings": {
+            "text": {
+              "label": "Tekst",
+              "default": "Geef klanten details over de bannerafbeelding(en) of content op de template."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Hoofdtekst"
+              },
+              "options__2": {
+                "label": "Subtitel"
+              },
+              "options__3": {
+                "label": "Hoofdletters"
+              },
+              "label": "Stijl"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Knoppen",
+          "settings": {
+            "button_label_1": {
+              "label": "Label",
+              "info": "Laat leeg om te verbergen",
+              "default": "Knoplabel"
+            },
+            "button_link_1": {
+              "label": "Koppeling"
+            },
+            "button_style_secondary_1": {
+              "label": "Stijl omlijnen"
+            },
+            "button_label_2": {
+              "label": "Label",
+              "info": "Laat leeg om te verbergen",
+              "default": "Knoplabel"
+            },
+            "button_link_2": {
+              "label": "Koppeling"
+            },
+            "button_style_secondary_2": {
+              "label": "Stijl omlijnen"
+            },
+            "header_1": {
+              "content": "Knop 1"
+            },
+            "header_2": {
+              "content": "Knop 2"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Helden spandoek"
+      }
+    },
     "image-with-text": {
       "name": "Afbeelding met tekst",
       "settings": {

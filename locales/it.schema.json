@@ -1162,6 +1162,175 @@
         "name": "Immagine banner"
       }
     },
+    "hero-banner": {
+      "name": "Eroe banner",
+      "settings": {
+        "image": {
+          "label": "Immagine 1"
+        },
+        "image_2": {
+          "label": "Immagine 2"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "stack_images_on_mobile": {
+          "label": "Elenca immagini"
+        },
+        "show_text_box": {
+          "label": "Contenitore"
+        },
+        "image_overlay_opacity": {
+          "label": "Opacità della sovrapposizione"
+        },
+        "show_text_below": {
+          "label": "Contenitore"
+        },
+        "image_height": {
+          "label": "Altezza",
+          "options__1": {
+            "label": "Adatta alla prima immagine"
+          },
+          "options__2": {
+            "label": "Piccola"
+          },
+          "options__3": {
+            "label": "Media"
+          },
+          "options__4": {
+            "label": "Grande"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "In alto a sinistra"
+          },
+          "options__2": {
+            "label": "In alto al centro"
+          },
+          "options__3": {
+            "label": "In alto a destra"
+          },
+          "options__4": {
+            "label": "In mezzo a sinistra"
+          },
+          "options__5": {
+            "label": "In mezzo al centro"
+          },
+          "options__6": {
+            "label": "In mezzo a destra"
+          },
+          "options__7": {
+            "label": "In basso a sinistra"
+          },
+          "options__8": {
+            "label": "In basso al centro"
+          },
+          "options__9": {
+            "label": "In basso a destra"
+          },
+          "label": "Posizione"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "A sinistra"
+          },
+          "options__2": {
+            "label": "Al centro"
+          },
+          "options__3": {
+            "label": "A destra"
+          },
+          "label": "Allineamento"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "A sinistra"
+          },
+          "options__2": {
+            "label": "Al centro"
+          },
+          "options__3": {
+            "label": "A destra"
+          },
+          "label": "Allineamento"
+        },
+        "mobile": {
+          "content": "Layout dispositivo mobile"
+        },
+        "content": {
+          "content": "Contenuto"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Titolo",
+          "settings": {
+            "heading": {
+              "label": "Titolo",
+              "default": "Immagine banner"
+            }
+          }
+        },
+        "text": {
+          "name": "Testo",
+          "settings": {
+            "text": {
+              "label": "Testo",
+              "default": "Fornisci ai clienti dettagli sulle immagini del banner o sul contenuto del modello."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Testo"
+              },
+              "options__2": {
+                "label": "Sottotitolo"
+              },
+              "options__3": {
+                "label": "Maiuscolo"
+              },
+              "label": "Stile"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Pulsanti",
+          "settings": {
+            "button_label_1": {
+              "label": "Etichetta",
+              "info": "Lascia vuoto per nascondere",
+              "default": "Etichetta pulsante"
+            },
+            "button_link_1": {
+              "label": "Link"
+            },
+            "button_style_secondary_1": {
+              "label": "Stile contorno"
+            },
+            "button_label_2": {
+              "label": "Etichetta",
+              "info": "Lascia vuoto per nascondere",
+              "default": "Etichetta pulsante"
+            },
+            "button_link_2": {
+              "label": "Link"
+            },
+            "button_style_secondary_2": {
+              "label": "Stile contorno"
+            },
+            "header_1": {
+              "content": "Pulsante 1"
+            },
+            "header_2": {
+              "content": "Pulsante 2"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Eroe banner"
+      }
+    },
     "image-with-text": {
       "name": "Immagine con testo",
       "settings": {
