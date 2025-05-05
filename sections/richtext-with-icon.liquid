@@ -93,7 +93,7 @@
                 </div>
             {%- when 'link' -%}
                 <div class="rich-text-link">
-                    <a href="{{block.setiings.link}}">{{block.setiings.label}}</a>
+                    <a href="{{block.setiings.link-url}}">{{block.setiings.link-label}}</a>
                 </div>
           {%- endcase -%}
         {%- endfor -%}
@@ -366,12 +366,12 @@
       "settings": [
         {
           "type": "text",
-          "id": "label",
+          "id": "link-label",
           "label": "Link label"
         },
         {
           "type": "url",
-          "id": "link",
+          "id": "link-url",
           "label": "URL"
         }
       ]
