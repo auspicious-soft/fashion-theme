@@ -126,8 +126,8 @@
         "link_DM7J7J": {
           "type": "link",
           "settings": {
-            "label": "View All Products",
-            "link": "shopify://collections/all"
+            "link-label": "View All Products",
+            "link-url": "shopify://collections/all"
           }
         }
       },
