@@ -111,23 +111,16 @@
     "richtext_with_icon_7rhCHg": {
       "type": "richtext-with-icon",
       "blocks": {
-        "heading_JDEFWE": {
-          "type": "heading",
+        "icon_tX3Fjj": {
+          "type": "icon",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "icon": "shopify://shop_images/Heading_2.svg"
           }
         },
         "text_7BknRJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "icon_tX3Fjj": {
-          "type": "icon",
-          "settings": {
-            "icon": "shopify://shop_images/Heading_2.svg"
+            "text": "<p>We believe style should be accessible to all, whatever your budget, as we deliver product to help you go places</p>"
           }
         },
         "link_DM7J7J": {
@@ -139,9 +132,8 @@
         }
       },
       "block_order": [
-        "heading_JDEFWE",
-        "text_7BknRJ",
         "icon_tX3Fjj",
+        "text_7BknRJ",
         "link_DM7J7J"
       ],
       "name": "Richtext with icon",
