@@ -108,45 +108,6 @@
         "show_text_below": false
       }
     },
-    "richtext_with_icon_7rhCHg": {
-      "type": "richtext-with-icon",
-      "blocks": {
-        "icon_tX3Fjj": {
-          "type": "icon",
-          "settings": {
-            "icon": "shopify://shop_images/Heading_2.svg"
-          }
-        },
-        "text_7BknRJ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We believe style should be accessible to all, whatever your budget, as we deliver product to help you go places</p>"
-          }
-        },
-        "link_DM7J7J": {
-          "type": "link",
-          "settings": {
-            "link-label": "View All Products",
-            "link-url": "shopify://collections/all"
-          }
-        }
-      },
-      "block_order": [
-        "icon_tX3Fjj",
-        "text_7BknRJ",
-        "link_DM7J7J"
-      ],
-      "name": "Richtext with icon",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-d6752ece-cfc3-4112-a35b-dfd52211efd0",
-        "bg-style": "shopify://shop_images/Vector_7.svg",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "rich_text_KWFgrC": {
       "type": "rich-text",
       "blocks": {
@@ -323,7 +284,6 @@
   "order": [
     "image_banner",
     "hero_banner_n4Pdwf",
-    "richtext_with_icon_7rhCHg",
     "rich_text_KWFgrC",
     "featured_collection",
     "collage",
