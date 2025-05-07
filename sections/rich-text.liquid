@@ -87,6 +87,15 @@
                   </a>
                 {%- endif -%}
               </div>
+            {%- when 'icon' -%}
+                <div class="rich-text-icon">
+                    <img src="{{block.settings.icon | img_url:''}}">
+                </div>
+            {%- when 'link' -%}
+                <div class="rich-text-link">
+                    <a href="{{block.settings.link-url}}">{{block.settings.link-label}}</a>
+                </div>
+          {%- endcase -%}  
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -333,6 +342,35 @@
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
         }
       ]
+    },
+    {
+      "type": "icon",
+      "name": "Icon",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "t:sections.rich-text.blocks.icon.settings.icon.label"
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "name": "Link",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "link-label",
+          "label": "t:sections.rich-text.blocks.link.settings.link-label.label"
+        },
+        {
+          "type": "url",
+          "id": "link-url",
+          "label": "t:sections.rich-text.blocks.link.settings.link-url.label"
+        }
+      ]
     }
   ],
   "presets": [
@@ -347,6 +385,12 @@
         },
         {
           "type": "button"
+        },
+        {
+          "type": "icon"
+        },
+        {
+          "type": "link"
         }
       ]
     }
