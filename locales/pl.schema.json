@@ -2595,6 +2595,25 @@
               }
             }
           }
+        },
+        "icon": {
+          "name": "Ikona",
+          "settings": {
+            "icon": {
+              "label": "Ikona"
+            }
+          }
+        },
+        "link": {
+          "name": "Linku",
+          "settings": {
+            "link-label": {
+              "label": "Etykieta łącza"
+            },
+            "link-url": {
+              "label": "Adres URL linku"
+            }
+          }
         }
       },
       "presets": {

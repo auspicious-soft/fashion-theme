@@ -2595,6 +2595,25 @@
               }
             }
           }
+        },
+        "icon": {
+          "name": "アイコン",
+          "settings": {
+            "icon": {
+              "label": "アイコン"
+            }
+          }
+        },
+        "link": {
+          "name": "リンク",
+          "settings": {
+            "link-label": {
+              "label": "リンクラベル"
+            },
+            "link-url": {
+              "label": "リンクURL"
+            }
+          }
         }
       },
       "presets": {

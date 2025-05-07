@@ -2595,6 +2595,25 @@
               }
             }
           }
+        },
+        "icon": {
+          "name": "Icono",
+          "settings": {
+            "icon": {
+              "label": "Icono"
+            }
+          }
+        },
+        "link": {
+          "name": "Enlace",
+          "settings": {
+            "link-label": {
+              "label": "Etiqueta de enlace"
+            },
+            "link-url": {
+              "label": "URL del enlace"
+            }
+          }
         }
       },
       "presets": {

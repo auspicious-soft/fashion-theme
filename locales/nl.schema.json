@@ -2595,7 +2595,26 @@
               }
             }
           }
-        }
+        },
+        "icon": {
+          "name": "Icon",
+          "settings": {
+            "icon": {
+              "label": "Icon"
+            }
+          }
+        },
+        "link": {
+          "name": "Link",
+          "settings": {
+            "link-label": {
+              "label": "Link label"
+            },
+            "link-url": {
+              "label": "Link URL"
+            }
+          }
+        } 
       },
       "presets": {
         "name": "Tekst met opmaak"

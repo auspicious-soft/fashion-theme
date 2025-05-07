@@ -2595,6 +2595,26 @@
               }
             }
           }
+          
+        },
+        "icon": {
+          "name": "Kuvake",
+          "settings": {
+            "icon": {
+              "label": "Kuvake"
+            }
+          }
+        },
+        "link": {
+          "name": "Linkki",
+          "settings": {
+            "link-label": {
+              "label": "Linkin tunniste"
+            },
+            "link-url": {
+              "label": "Linkin URL-osoite"
+            }
+          }
         }
       },
       "presets": {

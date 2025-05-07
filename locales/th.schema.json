@@ -2595,6 +2595,25 @@
               }
             }
           }
+        },
+        "icon": {
+          "name": "ไอคอน",
+          "settings": {
+            "icon": {
+              "label": "ไอคอน"
+            }
+          }
+        },
+        "link": {
+          "name": "ลิงค์",
+          "settings": {
+            "link-label": {
+              "label": "ป้ายกำกับลิงก์"
+            },
+            "link-url": {
+              "label": "ลิงก์ URL"
+            }
+          }
         }
       },
       "presets": {

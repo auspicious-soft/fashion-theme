@@ -2595,6 +2595,25 @@
               }
             }
           }
+        },
+        "icon": {
+          "name": "Icon",
+          "settings": {
+            "icon": {
+              "label": "Icon"
+            }
+          }
+        },
+        "link": {
+          "name": "링크",
+          "settings": {
+            "link-label": {
+              "label": "링크 라벨"
+            },
+            "link-url": {
+              "label": "링크 URL"
+            }
+          }
         }
       },
       "presets": {

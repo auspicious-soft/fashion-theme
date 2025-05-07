@@ -2595,6 +2595,25 @@
               }
             }
           }
+        },
+        "icon": {
+          "name": "图标",
+          "settings": {
+            "icon": {
+              "label": "图标"
+            }
+          }
+        },
+        "link": {
+          "name": "关联",
+          "settings": {
+            "link-label": {
+              "label": "链接标签"
+            },
+            "link-url": {
+              "label": "链接网址"
+            }
+          }
         }
       },
       "presets": {

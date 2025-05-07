@@ -2564,7 +2564,7 @@
             "header_button2": {
               "content": "Tlačítko 2"
             }
-          }
+          }          
         },
         "caption": {
           "name": "Titulek",
@@ -2593,6 +2593,25 @@
               "options__3": {
                 "label": "Velký"
               }
+            }
+          }
+        },
+        "icon": {
+          "name": "Ikona",
+          "settings": {
+            "icon": {
+              "label": "Ikona"
+            }
+          }
+        },
+        "link": {
+          "name": "Odkaz",
+          "settings": {
+            "link-label": {
+              "label": "Štítek odkazu"
+            },
+            "link-url": {
+              "label": "URL odkazu"
             }
           }
         }
