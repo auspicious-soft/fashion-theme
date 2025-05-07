@@ -151,8 +151,8 @@
       "name": "Collection slider",
       "settings": {
         "collection": "automated-collection",
-        "products_to_show": 2,
-        "title": "Featured collection",
+        "caption": "New Arrivals",
+        "title": "SPRING BREAK SALE1",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
