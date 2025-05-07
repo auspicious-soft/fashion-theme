@@ -144,7 +144,7 @@
           class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}"
           aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title | escape }}"
         >
-          {{ 'sections.featured_collection.view_all' | t }}
+          {{ section.settings.view_all_label }}
         </a>
       </div>
     {%- endif -%}
@@ -272,15 +272,6 @@
       "content": "t:sections.featured-collection.settings.header_collection.content"
     },    
     {
-      "type": "range",
-      "id": "columns_desktop",
-      "min": 1,
-      "max": 6,
-      "step": 1,
-      "default": 4,
-      "label": "t:sections.featured-collection.settings.columns_desktop.label"
-    },
-        {
       "type": "checkbox",
       "id": "enable_desktop_slider",
       "label": "t:sections.featured-collection.settings.enable_desktop_slider.label",
@@ -318,6 +309,12 @@
         }
       ],
       "default": "solid"
+    },
+    {
+      "type": "text",
+      "id": "view_all_label",
+      "label": "View all label",
+      "default": 'View All
     }, 
     {
       "type": "color_scheme",
