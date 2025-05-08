@@ -20,21 +20,13 @@
             "text": "FREE STANDARD SHIPPING ON ORDERS $99+",
             "link": ""
           }
-        },
-        "announcement_7LJ8yC": {
-          "type": "announcement",
-          "settings": {
-            "text": "FREE STANDARD SHIPPING ON ORDERS $99+",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement_E7W7fz",
-        "announcement_7LJ8yC"
+        "announcement_E7W7fz"
       ],
       "settings": {
-        "auto_rotate": true,
+        "auto_rotate": false,
         "change_slides_speed": 5,
         "color_scheme": "scheme-c7988657-826f-4108-88d6-25119cf340fc",
         "show_line_separator": false,
