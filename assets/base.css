@@ -3588,6 +3588,7 @@ details-disclosure>details {
 
 .progress-bar .progress-bar-value {
   display: block;
+  height: auto;
 }
 
 @keyframes indeterminateAnimation {
