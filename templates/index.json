@@ -46,7 +46,7 @@
       "name": "Hero banner",
       "settings": {
         "image": "shopify://shop_images/6051513-hd_1920_1080_25fps.png",
-        "video": "shopify://files/videos/853800-hd_1920_1080_25fps.mp4",
+        "video": "shopify://files/videos/8307053-hd_1920_1080_25fps.mp4",
         "image_overlay_opacity": 30,
         "image_height": "large",
         "image_behavior": "none",
