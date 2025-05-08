@@ -150,7 +150,7 @@
       "type": "collection-slider",
       "name": "Collection slider",
       "settings": {
-        "collection": "automated-collection",
+        "collection": "spring-break-sale",
         "caption": "New Arrivals",
         "title": "SPRING BREAK SALE1",
         "heading_size": "h1",
