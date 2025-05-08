@@ -101,7 +101,8 @@
         </div>
       {%- endif -%}
     </div>
-
+    <div class="collection-product">
+  <div class="page-width">
     <div class="collection-product-list swiper collectionSlider">
         <div 
             id="Slider-{{ section.id }}"
@@ -138,6 +139,8 @@
         </div>
         <div class="swiper-button-next">{% render 'right-arrow' %}</div>
         <div class="swiper-button-prev">{% render 'left-arrow' %}</div>       
+    </div>
+    </div>
     </div>
     
     {%- if section.settings.show_view_all -%}
