@@ -166,6 +166,8 @@
         "show_secondary_image": true,
         "show_vendor": true,
         "show_rating": true,
+        "show_swatches": false,
+        "show_sizes": true,
         "quick_add": "none",
         "padding_top": 36,
         "padding_bottom": 36
