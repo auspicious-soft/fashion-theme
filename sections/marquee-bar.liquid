@@ -1,0 +1,72 @@
+{{ 'component-scrollbar.css' | asset_url | stylesheet_tag }}
+
+<div class="scroll-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator and section.blocks.size > 0 %} utility-bar--bottom-border{% endif %}"
+  {{ block.shopify_attributes }}
+>  
+  <div class="section-scroll-wrapper">
+    <div class="scroll-wrapper">
+      {%- for i in (1..10) -%}
+        {%- for block in section.blocks -%}
+          <div class="scroll-text">
+            {%- if block.settings.link != blank -%}
+              <a href="{{ block.settings.link }}">{{ block.settings.text }}</a>
+            {%- else -%}
+              <p>{{ block.settings.text }}</p>
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      {%- endfor -%}
+    </div>
+  </div>  
+</div>
+
+{% schema %}
+{
+  "name": "Marquee bar",
+  "max_blocks": 10,
+  "class": "scroll-bar-section",
+  "settings": [
+   {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-4"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_line_separator",
+      "default": true,
+      "label": "t:sections.header.settings.show_line_separator.label"
+    }
+  ],
+  "blocks":[
+    {
+      "type": "scroll-announcement",
+      "name": "Marquee announcement",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Marquee bar",
+      "blocks": [
+        {
+          "type": "scroll-announcement"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
