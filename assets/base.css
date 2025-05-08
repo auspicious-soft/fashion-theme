@@ -2362,7 +2362,7 @@ input[type='checkbox'] {
   .header--has-app {
     grid-template-columns: auto 1fr auto;
   }
-}
+} 
 
 @media screen and (min-width: 990px) {
   .header {
