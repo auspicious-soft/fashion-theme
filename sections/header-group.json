@@ -68,10 +68,9 @@
       "block_order": [
         "scroll_announcement_n7fxGp"
       ],
-      "disabled": true,
       "name": "Marquee bar",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-c7988657-826f-4108-88d6-25119cf340fc",
         "show_line_separator": true
       }
     }
