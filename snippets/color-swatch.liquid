@@ -31,12 +31,5 @@
                   {%- endunless -%}
                 {%- endfor -%}
               </div>
-              {%- if color_count < 2 -%}
-                {%- style -%}
-                  .grid-product__colors--{{ card_product.id }} {
-                    display: none;
-                  }
-                {%- endstyle -%}
-              {%- endif -%}
       {% endif %}
     {% endfor %}
