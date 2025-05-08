@@ -1,0 +1,50 @@
+.scroll-wrapper .scroll-text {
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: 1px !important;
+    text-transform: uppercase;
+    display: block;
+    flex: 0 0 auto;
+}
+
+.scroll-wrapper .scroll-text a {
+    letter-spacing: 1px !important;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.section-scroll-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.scroll-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 5px 40px;
+    gap: 50px;
+    animation: slidelogoLeft 40s linear infinite;
+}
+
+.scroll-wrapper p {
+    margin: 0;
+    line-height: 100%;
+}
+
+.utility-bar--bottom-border .section-scroll-wrapper {
+    padding-top: 1px;
+}
+
+@keyframes slidelogoLeft {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
