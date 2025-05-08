@@ -141,35 +141,37 @@
               </span>
             {%- endif -%}
           </div>
-          <div class="size-swatches-wrp">
-            {%- for option in card_product.options_with_values -%}
-            {% assign option_name_downcase = option.name | downcase %}
-              {% if option_name_downcase == 'size' %}
-                 {%- assign option_index = forloop.index0 -%}
-              {%- assign values = '' -%}
-              <div class="grid-product__colors grid-product__colors--{{ card_product.id }}">
-                {%- for variant in card_product.variants -%}
-                  {%- assign value = variant.options[option_index] %}
-                  {%- unless values contains value -%}
-                    {%- liquid
-                      assign values = values | join: ',' | append: ',' | append: value | split: ','
-                    -%}
-      
-                    <a
-                      href="{{ variant.url | within: collection }}"
-                      class="size-swatch size-swatch--small size-swatch--{{ value | handle }}{% if variant.image %} size-swatch--with-image{% endif %}"
-                      {% if variant.image %}
-                        data-variant-id="{{ variant.id }}"
-                      {% endif %}
-                      aria-label="{{ card_product.title }} - {{ value }}">
-                      <span class="size-value-wrp">{{ value }}</span>
-                    </a>
-                  {%- endunless -%}
-                {%- endfor -%}
-              </div>
-              {% endif %}
-            {% endfor %}
-          </div>
+          {%- if show_sizes -%}
+            <div class="size-swatches-wrp">
+              {%- for option in card_product.options_with_values -%}
+              {% assign option_name_downcase = option.name | downcase %}
+                {% if option_name_downcase == 'size' %}
+                  {%- assign option_index = forloop.index0 -%}
+                {%- assign values = '' -%}
+                <div class="grid-product__colors grid-product__colors--{{ card_product.id }}">
+                  {%- for variant in card_product.variants -%}
+                    {%- assign value = variant.options[option_index] %}
+                    {%- unless values contains value -%}
+                      {%- liquid
+                        assign values = values | join: ',' | append: ',' | append: value | split: ','
+                      -%}
+        
+                      <a
+                        href="{{ variant.url | within: collection }}"
+                        class="size-swatch size-swatch--small size-swatch--{{ value | handle }}{% if variant.image %} size-swatch--with-image{% endif %}"
+                        {% if variant.image %}
+                          data-variant-id="{{ variant.id }}"
+                        {% endif %}
+                        aria-label="{{ card_product.title }} - {{ value }}">
+                        <span class="size-value-wrp">{{ value }}</span>
+                      </a>
+                    {%- endunless -%}
+                  {%- endfor -%}
+                </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {%- endif -%}
         </div>
       </div>
       <div class="card__content">
@@ -595,9 +597,11 @@
           {%- endif -%}
         </div>
       </div>
-      <div class="color-swatches-wrp">   
-          {% render 'color-swatch',card_product: card_product  %}
-      </div>
+      {%- if show_swatches -%}
+        <div class="color-swatches-wrp">   
+            {% render 'color-swatch',card_product: card_product  %}
+        </div>
+      {%- endif -%}
     </div>
   </div>
 {%- else -%}
