@@ -372,5 +372,33 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    <script>
+      function swatch_mouseenter(elem) {
+        var get_image = $(elem).attr("data-variant-image");
+        // console.log(get_image);
+        $(elem)
+          .closest(".card-wrapper")
+          .find(".card__media .media img")
+          .eq(0)
+          .attr("srcset", get_image)
+          .attr("src", get_image);
+      }
+      
+      function swatch_mouseleave(elem) {
+        var first_get_image = $(elem)
+          .closest(".grid-product__colors")
+          .find(".color-swatch")
+          .eq(0)
+          .attr("data-variant-image");
+        $(elem)
+          .closest(".card-wrapper")
+          .find(".card__media .media img")
+          .eq(0)
+          .attr("srcset", first_get_image)
+          .attr("src", first_get_image);
+        // console.log(first_get_image);
+      }
+    </script>
   </body>
 </html>
