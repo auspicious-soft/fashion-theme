@@ -3,7 +3,7 @@
 <div class="scroll-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator and section.blocks.size > 0 %} utility-bar--bottom-border{% endif %}"
   {{ block.shopify_attributes }}
 >  
-  <div class="section-scroll-wrapper">
+  <div class="section-scroll-wrapper"> 
     <div class="scroll-wrapper">
       {%- for i in (1..10) -%}
         {%- for block in section.blocks -%}
