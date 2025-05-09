@@ -15,7 +15,9 @@
     align-items: center;
     gap: 14px;
 }
-
+.scroll-svg-wrapper svg {
+    display: block;
+}
 .section-scroll-wrapper {
     overflow: hidden;
     white-space: nowrap;
