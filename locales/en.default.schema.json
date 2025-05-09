@@ -517,6 +517,26 @@
         "name": "Announcement bar"
       }
     },
+    "marquee-bar": {
+      "name": "Marquee bar",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "Marquee announcement",
+          "settings": {
+            "text": {
+              "label": "Text",
+              "default": "Welcome to our store"
+            },            
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Scroll bar"
+      }
+    },
     "apps": {
       "name": "Apps",
       "settings": {
