@@ -53,5 +53,6 @@
 @media screen and (max-width: 768px) {
     .scroll-wrapper {
         animation: slidelogoLeft 8s linear infinite;
+        gap: 30px;
     } 
 }
