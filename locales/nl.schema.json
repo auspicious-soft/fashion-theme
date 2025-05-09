@@ -506,6 +506,26 @@
         "name": "Aankondigingsbalk"
       }
     },
+    "marquee-bar": {
+      "name": "Feestelijke bar",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "Markeer aankondiging",
+          "settings": {
+            "text": {
+              "label": "Tekst",
+              "default": "Welkom in onze winkel"
+            },            
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Feestelijke bar"
+      }
+    },
     "collage": {
       "name": "Collage",
       "settings": {

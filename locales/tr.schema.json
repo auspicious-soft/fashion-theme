@@ -506,6 +506,26 @@
         "name": "Duyuru çubuğu"
       }
     },
+    "marquee-bar": {
+      "name": "Seçim çerçevesi çubuğu",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "MSeçim çerçevesi duyurusu",
+          "settings": {
+            "text": {
+              "label": "Metin",
+              "default": "Mağazamıza hoş geldiniz"
+            },            
+            "link": {
+              "label": "Bağlantı"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Seçim çerçevesi çubuğu"
+      }
+    },
     "collage": {
       "name": "Kolaj",
       "settings": {

@@ -506,6 +506,26 @@
         "name": "Ankündigungsleiste"
       }
     },
+    "marquee-bar": {
+      "name": "Festzeltbar",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "Ankündigung im Festzelt",
+          "settings": {
+            "text": {
+              "label": "Text",
+              "default": "Willkommen in unserem Shop"
+            },            
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Festzeltbar"
+      }
+    },
     "collage": {
       "name": "Collage",
       "settings": {

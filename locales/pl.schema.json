@@ -506,6 +506,26 @@
         "name": "Pasek ogłoszeń"
       }
     },
+    "marquee-bar": {
+      "name": "Bar markizowy",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "Ogłoszenie Marquee",
+          "settings": {
+            "text": {
+              "label": "Tekst",
+              "default": "Witamy w naszym sklepie"
+            },            
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Bar markizowy"
+      }
+    },
     "collage": {
       "name": "Kolaż",
       "settings": {

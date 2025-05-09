@@ -506,6 +506,26 @@
         "name": "แถบประกาศ"
       }
     },
+    "marquee-bar": {
+      "name": "บาร์กระโจม",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "ประกาศปะรำ",
+          "settings": {
+            "text": {
+              "label": "ข้อความ",
+              "default": "ยินดีต้อนรับสู่ร้านค้าของเรา"
+            },            
+            "link": {
+              "label": "ลิงก์"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "บาร์กระโจม"
+      }
+    },
     "collage": {
       "name": "คอลลาจ",
       "settings": {

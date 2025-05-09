@@ -506,6 +506,26 @@
         "name": "Kunngjøringslinje"
       }
     },
+    "marquee-bar": {
+      "name": "Marquee bar",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "Marquee kunngjøring",
+          "settings": {
+            "text": {
+              "label": "Tekst",
+              "default": "Velkommen til butikken vår"
+            },            
+            "link": {
+              "label": "Kobling"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Marquee bar"
+      }
+    },
     "collage": {
       "name": "Fotomontasje",
       "settings": {

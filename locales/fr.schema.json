@@ -506,6 +506,26 @@
         "name": "Barre d’annonces"
       }
     },
+    "marquee-bar": {
+      "name": "Bar chapiteau",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "Annonce phare",
+          "settings": {
+            "text": {
+              "label": "Texte",
+              "default": "Bienvenue dans notre boutique"
+            },            
+            "link": {
+              "label": "Lien"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Bar chapiteau"
+      }
+    },
     "collage": {
       "name": "Collage",
       "settings": {

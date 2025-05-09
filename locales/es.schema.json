@@ -506,6 +506,26 @@
         "name": "Barra de anuncios"
       }
     },
+    "marquee-bar": {
+      "name": "barra de marquesina",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "Anuncio de marquesina",
+          "settings": {
+            "text": {
+              "label": "Texto",
+              "default": "Te damos la bienvenida a nuestra tienda"
+            },            
+            "link": {
+              "label": "Enlace"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "barra de marquesina"
+      }
+    },
     "collage": {
       "name": "Collage",
       "settings": {

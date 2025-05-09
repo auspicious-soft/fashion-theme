@@ -506,6 +506,26 @@
         "name": "Meddelandefält"
       }
     },
+    "marquee-bar": {
+      "name": "Marquee bar",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "Marquee meddelande",
+          "settings": {
+            "text": {
+              "label": "Text",
+              "default": "Välkommen till vår butik"
+            },            
+            "link": {
+              "label": "Länk"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Marquee bar"
+      }
+    },
     "collage": {
       "name": "Kollage",
       "settings": {

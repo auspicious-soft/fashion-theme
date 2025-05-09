@@ -534,7 +534,7 @@
         }
       },
       "presets": {
-        "name": "Scroll bar"
+        "name": "Marquee bar"
       }
     },
     "apps": {

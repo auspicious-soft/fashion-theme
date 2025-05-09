@@ -506,6 +506,26 @@
         "name": "Ilmoituspalkki"
       }
     },
+    "marquee-bar": {
+      "name": "Marquee baari",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "Marqueen ilmoitus",
+          "settings": {
+            "text": {
+              "label": "Teksti",
+              "default": "Tervetuloa kauppaamme"
+            },            
+            "link": {
+              "label": "Linkki"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Marquee baari"
+      }
+    },
     "collage": {
       "name": "Kollaasi",
       "settings": {

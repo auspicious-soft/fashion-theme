@@ -506,6 +506,26 @@
         "name": "告知バー"
       }
     },
+    "marquee-bar": {
+      "name": "マーキーバー",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "マーキーアナウンス",
+          "settings": {
+            "text": {
+              "label": "テキスト",
+              "default": "ストアへようこそ"
+            },            
+            "link": {
+              "label": "リンク"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "マーキーバー"
+      }
+    },
     "collage": {
       "name": "コラージュ",
       "settings": {

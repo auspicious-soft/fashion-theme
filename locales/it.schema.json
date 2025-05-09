@@ -506,6 +506,26 @@
         "name": "Barra degli annunci"
       }
     },
+    "marquee-bar": {
+      "name": "Barra del tendone",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "Annuncio del tendone",
+          "settings": {
+            "text": {
+              "label": "Testo",
+              "default": "Ti diamo il benvenuto nel nostro negozio"
+            },            
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Barra del tendone"
+      }
+    },
     "collage": {
       "name": "Collage",
       "settings": {

@@ -506,6 +506,26 @@
         "name": "Barra de comunicado"
       }
     },
+    "scroll-bar": {
+      "name": "Barra de letreiro",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "Anúncio de letreiro",
+          "settings": {
+            "text": {
+              "label": "Texto",
+              "default": "Boas-vindas à nossa loja"
+            },            
+            "link": {
+              "label": "Ligação"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Barra de letreiro"
+      }
+    },
     "collage": {
       "name": "Colagem",
       "settings": {

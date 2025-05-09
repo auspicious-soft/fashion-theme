@@ -506,6 +506,26 @@
         "name": "公告列"
       }
     },
+    "marquee-bar": {
+      "name": "帳篷酒吧",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "跑馬燈公告",
+          "settings": {
+            "text": {
+              "label": "文字",
+              "default": "歡迎來到我們的商店"
+            },            
+            "link": {
+              "label": "連結"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "帳篷酒吧"
+      }
+    },
     "collage": {
       "name": "拼貼",
       "settings": {

@@ -506,6 +506,26 @@
         "name": "Panel oznámení"
       }
     },
+    "marquee-bar": {
+      "name": "Marquee bar",
+      "blocks": {
+        "scroll-announcement": {
+          "name": "Marquee announcement",
+          "settings": {
+            "text": {
+              "label": "Text",
+              "default": "Vítejte v našem obchodě"
+            },            
+            "link": {
+              "label": "Odkaz"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Marquee bar"
+      }
+    },
     "collage": {
       "name": "Koláž",
       "settings": {
