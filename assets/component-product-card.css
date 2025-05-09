@@ -9,6 +9,7 @@
     text-align: center;
     transition: .5s ease-in-out;
     opacity: 0;
+    z-index: 1;
   }
   .underline-links-hover:hover .size-swatches-wrp {
     opacity: 1;
@@ -43,4 +44,13 @@
     right: 0;
     display: block !important;
     z-index: 1;
+}
+a.color-swatch {
+    border: solid 1px #ccc;
+}
+a.color-swatch {
+    display: block;
+    border-radius: 100%;
+    height: 19px;
+    width: 19px;
 }
