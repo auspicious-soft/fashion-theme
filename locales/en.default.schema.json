@@ -964,8 +964,7 @@
         },
         "enable_quick_buy": {
           "label": "Quick add"
-        }        
-        }        
+        }           
       },
       "presets": {
         "name": "Collection slider"
