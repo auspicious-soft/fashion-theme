@@ -28,7 +28,7 @@
       "name": "Marquee bar",
       "settings": {
         "color_scheme": "scheme-c7988657-826f-4108-88d6-25119cf340fc",
-        "show_line_separator": true
+        "show_line_separator": false
       }
     },
     "header": {
