@@ -852,6 +852,102 @@
         "name": "คอลเลกชันเด่น"
       }
     },
+    "collection-slider": {
+      "name": "แถบเลื่อนคอลเลกชัน",
+      "settings": {
+        "title": {
+          "label": "หัวเรื่อง",
+          "default": "คอลเลกชันเด่น"
+        },
+        "caption": {
+          "label": "คำบรรยายภาพ"
+        },
+        "collection": {
+          "label": "คอลเลกชัน"
+        },       
+        "show_view_all": {
+          "label": "ปุ่ม \"ดูทั้งหมด\"",
+          "info": "แสดงผลหากคอลเลกชันมีสินค้ามากกว่าที่แสดงไว้"
+        },
+        "view_all_label": {
+          "label": "ดูป้ายกำกับทั้งหมด",
+          "default": "ดูทั้งหมด"
+        },
+        "header": {
+          "content": "บัตรสินค้า"
+        },
+        "image_ratio": {
+          "label": "อัตราส่วนรูปภาพ",
+          "options__1": {
+            "label": "ปรับตามรูปภาพ"
+          },
+          "options__2": {
+            "label": "แนวตั้ง"
+          },
+          "options__3": {
+            "label": "สี่เหลี่ยมจัตุรัส"
+          }
+        },
+        "show_secondary_image": {
+          "label": "แสดงรูปภาพที่สองเมื่อนำเมาส์ไปวาง"
+        },
+        "show_vendor": {
+          "label": "ผู้ขาย"
+        },
+        "show_rating": {
+          "label": "การรีวิวสินค้า",
+          "info": "จำเป็นต้องมีแอปสำหรับการรีวิวสินค้า [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "สวอตช์"
+        },
+        "show_sizes": {
+          "label": "ขนาด"
+        },
+        "enable_quick_buy": {
+          "label": "เพิ่มด่วน"
+        },        
+        "description": {
+          "label": "คำอธิบาย"
+        },
+        "show_description": {
+          "label": "แสดงคำอธิบายคอลเลกชันจากส่วนผู้ดูแล"
+        },
+        "description_style": {
+          "label": "รูปแบบคำอธิบาย",
+          "options__1": {
+            "label": "เนื้อหา"
+          },
+          "options__2": {
+            "label": "คำบรรยาย"
+          },
+          "options__3": {
+            "label": "ตัวพิมพ์ใหญ่"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "ลิงก์"
+          },
+          "options__2": {
+            "label": "ปุ่มแบบเค้าโครง"
+          },
+          "options__3": {
+            "label": "ปุ่มทึบ"
+          },
+          "label": "รูปแบบ “ดูทั้งหมด”"
+        },        
+        "header_text": {
+          "content": "ข้อความ"
+        },
+        "header_collection": {
+          "content": "เลย์เอาต์ของคอลเลกชัน"
+        }
+      },
+      "presets": {
+        "name": "แถบเลื่อนคอลเลกชัน"
+      }
+    },
     "footer": {
       "name": "ส่วนท้าย",
       "blocks": {
