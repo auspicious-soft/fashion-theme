@@ -852,6 +852,102 @@
         "name": "Colección destacada"
       }
     },
+    "collection-slider": {
+      "name": "Control deslizante de colección",
+      "settings": {
+        "title": {
+          "label": "Título",
+          "default": "Colección destacada"
+        },
+        "caption": {
+          "label": "Subtítulo"         
+        },
+        "collection": {
+          "label": "Colección"
+        },
+        "show_view_all": {
+          "label": "Botón \"Ver todo\"",
+          "info": "Visible si la colección tiene más productos que los que se muestran"
+        },
+        "view_all_label": {
+          "label": "View all label",
+          "default": "Ver todo"
+        },
+        "header": {
+          "content": "Tarjeta de producto"
+        },
+        "image_ratio": {
+          "label": "Relación de aspecto de imagen",
+          "options__1": {
+            "label": "Adaptar a la imagen"
+          },
+          "options__2": {
+            "label": "Retrato"
+          },
+          "options__3": {
+            "label": "Cuadrado"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Mostrar segunda imagen al pasar el cursor"
+        },
+        "show_vendor": {
+          "label": "Proveedor"
+        },
+        "show_rating": {
+          "label": "Calificación del producto",
+          "info": "Se requiere una aplicación para las calificaciones. [Más información](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "Swatches"
+        },
+        "show_sizes": {
+          "label": "Tallas"
+        },
+        "description": {
+          "label": "Descripción"
+        },
+        "show_description": {
+          "label": "Mostrar descripción de la colección desde el panel de control"
+        },
+        "description_style": {
+          "label": "Estilo de descripción",
+          "options__1": {
+            "label": "Cuerpo"
+          },
+          "options__2": {
+            "label": "Subtítulo"
+          },
+          "options__3": {
+            "label": "Mayúscula"
+          }
+        },
+        "view_all_style": {
+          "label": "Estilo \"Ver todos\"",
+          "options__1": {
+            "label": "Enlace"
+          },
+          "options__2": {
+            "label": "Botón con contorno"
+          },
+          "options__3": {
+            "label": "Botón sólido"
+          }
+        },   
+        "enable_quick_buy": {
+          "label": "Agregado rápido"
+        },
+        "header_text": {
+          "content": "Texto"
+        },
+        "header_collection": {
+          "content": "Diseño de colección"
+        }
+      },
+      "presets": {
+        "name": "Control deslizante de colección"
+      }
+    },
     "footer": {
       "name": "Pie de página",
       "blocks": {

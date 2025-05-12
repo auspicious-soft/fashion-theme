@@ -852,6 +852,102 @@
         "name": "Vorgestellte Kollektion"
       }
     },
+    "collection-slider": {
+      "name": "Sammlungsschieberegler",
+      "settings": {
+        "title": {
+          "label": "Überschrift",
+          "default": "Vorgestellte Kollektion"
+        },
+        "cation": {
+          "label": "Untertitel"          
+        },
+        "collection": {
+          "label": "Kategorie"
+        },
+        "show_view_all": {
+          "label": "Schaltfläche \"Alle anzeigen\"",
+          "info": "Sichtbar, wenn die Kollektion mehr als die angezeigten Produkte enthält"
+        },
+        "view_all_label": {
+          "label": "Alle Etiketten anzeigen",
+          "default": "Alle anzeigen"
+        },
+        "header": {
+          "content": "Produktkarte"
+        },
+        "image_ratio": {
+          "label": "Bildverhältnis",
+          "options__1": {
+            "label": "An Bild anpassen"
+          },
+          "options__2": {
+            "label": "Porträt"
+          },
+          "options__3": {
+            "label": "Quadrat"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Hover-Effekt mit zweitem Bild"
+        },
+        "show_vendor": {
+          "label": "Anbieter"
+        },
+        "show_rating": {
+          "label": "Produktbewertung",
+          "info": "Für Bewertungen wird eine App benötigt. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "Farbfelder"
+        },
+        "show_sizes": {
+          "label": "Größen"
+        },
+        "enable_quick_buy": {
+          "label": "Schnelles Hinzufügen"
+        },
+        "description": {
+          "label": "Beschreibung"
+        },
+        "show_description": {
+          "label": "Kollektionsbeschreibung im Admin-Panel anzeigen"
+        },
+        "description_style": {
+          "label": "Beschreibungsstil",
+          "options__1": {
+            "label": "Nachricht"
+          },
+          "options__2": {
+            "label": "Untertitel"
+          },
+          "options__3": {
+            "label": "Großbuchstaben"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Link"
+          },
+          "options__2": {
+            "label": "Umriss-Schaltfläche"
+          },
+          "options__3": {
+            "label": "Durchgehende Schaltfläche"
+          },
+          "label": "Stil \"Alles anzeigen\""
+        },        
+        "header_text": {
+          "content": "Text"
+        },
+        "header_collection": {
+          "content": "Kollektions-Layout"
+        }
+      },
+      "presets": {
+        "name": "Sammlungsschieberegler"
+      }
+    },
     "footer": {
       "name": "Fußzeile",
       "blocks": {
