@@ -852,6 +852,103 @@
         "name": "Collection en vedette"
       }
     },
+    "collection-slider": {
+      "name": "Curseur de collecte",
+      "settings": {
+        "title": {
+          "label": "Titre",
+          "default": "Collection en vedette"
+        },
+        "caption": {
+          "label": "Caption"
+        },
+        "collection": {
+          "label": "Collection"
+        },       
+        "show_view_all": {
+          "label": "Bouton « Tout afficher »",
+          "info": "Visible si la collection comprend plus de produits que ceux affichés"
+        },
+        "view_all_label": {
+          "label": "Voir toutes les étiquettes",
+          "default": "Voir tout"
+        },
+        "header": {
+          "content": "Carte de produit"
+        },
+        "image_ratio": {
+          "label": "Rapport d'image",
+          "options__1": {
+            "label": "Adapter à l'image"
+          },
+          "options__2": {
+            "label": "Portrait"
+          },
+          "options__3": {
+            "label": "Carré"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Afficher la deuxième image en survol"
+        },
+        "show_vendor": {
+          "label": "Fournisseur"
+        },
+        "show_rating": {
+          "label": "Évaluation de produit",
+          "info": "Une application est requise pour les évaluations. [En savoir plus](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "Swatches"
+        },
+        "show_sizes": {
+          "label": "Tailles"
+        },
+        "enable_quick_buy": {
+          "label": "Ajout rapide"
+        },        
+        "description": {
+          "label": "Description"
+        },
+        "show_description": {
+          "label": "Afficher la description de la collection à partir de l’interface administrateur"
+        },
+        "description_style": {
+          "label": "Style de la description",
+          "options__1": {
+            "label": "Corps"
+          },
+          "options__2": {
+            "label": "Sous-titre"
+          },
+          "options__3": {
+            "label": "Majuscule"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Lien"
+          },
+          "options__2": {
+            "label": "Bouton en relief"
+          },
+          "options__3": {
+            "label": "Bouton plein"
+          },
+          "label": "Style « Tout afficher »"
+        },
+       
+        "header_text": {
+          "content": "Texte"
+        },
+        "header_collection": {
+          "content": "Mise en page de la collection"
+        }
+      },
+      "presets": {
+        "name": "Curseur de collecte"
+      }
+    },
     "footer": {
       "name": "Pied de page",
       "blocks": {

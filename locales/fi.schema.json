@@ -852,6 +852,102 @@
         "name": "Esittelykokoelma"
       }
     },
+    "collection-slider": {
+      "name": "Kokoelman liukusäädin",
+      "settings": {
+        "title": {
+          "label": "Otsikko",
+          "default": "Esittelykokoelma"
+        },
+        "caption": {
+          "label": "Kuvateksti"
+        },
+        "collection": {
+          "label": "Kokoelma"
+        },        
+        "show_view_all": {
+          "label": "Näytä kaikki ‑painike",
+          "info": "Näkyvissä, jos kokoelmassa on näytettyä enemmän tuotteita"
+        },
+        "view_all_label": {
+          "label": "View all label",
+          "default": "Näytä kaikki"
+        },
+        "header": {
+          "content": "Tuotekortti"
+        },
+        "image_ratio": {
+          "label": "Kuvasuhde",
+          "options__1": {
+            "label": "Sovita kuvaan"
+          },
+          "options__2": {
+            "label": "Muotokuva"
+          },
+          "options__3": {
+            "label": "Neliö"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Näytä toinen kuva osoittaessa"
+        },
+        "show_vendor": {
+          "label": "Myyjä"
+        },
+        "show_rating": {
+          "label": "Tuotearvio",
+          "info": "Arviot edellyttävät sovellusta. [Lue lisää:](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "Swatchit"
+        },
+        "show_sizes": {
+          "label": "Koot"
+        },
+        "description": {
+          "label": "Kuvaus"
+        },
+        "show_description": {
+          "label": "Näytä kokoelman kuvaus Administa"
+        },
+        "description_style": {
+          "label": "Kuvauksen tyyli",
+          "options__1": {
+            "label": "Leipäteksti"
+          },
+          "options__2": {
+            "label": "Alaotsikko"
+          },
+          "options__3": {
+            "label": "Isot kirjaimet"
+          }
+        },
+        "view_all_style": {
+          "label": "”Katso kaikki” tyylit",
+          "options__1": {
+            "label": "Linkki"
+          },
+          "options__2": {
+            "label": "Kehyspainike"
+          },
+          "options__3": {
+            "label": "Peittävä painike"
+          }
+        },        
+        "enable_quick_buy": {
+          "label": "Pikalisäys"
+        },
+        "header_text": {
+          "content": "Teksti"
+        },
+        "header_collection": {
+          "content": "Kokoelma-asettelu"
+        }
+      },
+      "presets": {
+        "name": "Kokoelman liukusäädin"
+      }
+    },
     "footer": {
       "name": "Alatunniste",
       "blocks": {

@@ -852,6 +852,102 @@
         "name": "Collezione in evidenza"
       }
     },
+    "collection-slider": {
+      "name": "Dispositivo di scorrimento della raccolta",
+      "settings": {
+        "title": {
+          "label": "Titolo",
+          "default": "Collezione in evidenza"
+        },
+        "caption": {
+          "label": "Didascalia"         
+        },
+        "collection": {
+          "label": "Collezione"
+        },
+        "show_view_all": {
+          "label": "Pulsante \"Visualizza tutto\"",
+          "info": "Visibile se la collezione contiene più prodotti di quelli mostrati"
+        },
+        "view_all_label": {
+          "label": "Visualizza tutte le etichette",
+          "default": "Visualizza tutto"
+        },
+        "header": {
+          "content": "Scheda prodotto"
+        },
+        "image_ratio": {
+          "label": "Proporzioni delle immagini",
+          "options__1": {
+            "label": "Adatta all'immagine"
+          },
+          "options__2": {
+            "label": "Ritratto"
+          },
+          "options__3": {
+            "label": "Quadrate"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Mostra la seconda immagine al passaggio del mouse"
+        },
+        "show_vendor": {
+          "label": "Venditore"
+        },
+        "show_rating": {
+          "label": "Valutazione del prodotto",
+          "info": "Per le valutazioni è necessaria un'app. [Maggiori informazioni](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "Swatches"
+        },
+        "show_sizes": {
+          "label": "Sizes"
+        },
+        "enable_quick_buy": {
+          "label": "Aggiunta rapida"
+        },
+        "description": {
+          "label": "Descrizione"
+        },
+        "show_description": {
+          "label": "Mostra descrizione collezione dal pannello di controllo"
+        },
+        "description_style": {
+          "label": "Stile descrizione",
+          "options__1": {
+            "label": "Corpo"
+          },
+          "options__2": {
+            "label": "Sottotitolo"
+          },
+          "options__3": {
+            "label": "Maiuscolo"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Link"
+          },
+          "options__2": {
+            "label": "Contorno pulsante"
+          },
+          "options__3": {
+            "label": "Pulsante in tinta unita"
+          },
+          "label": "Stile \"Visualizza tutto\""
+        },        
+        "header_text": {
+          "content": "Testo"
+        },
+        "header_collection": {
+          "content": "Layout collezione"
+        }
+      },
+      "presets": {
+        "name": "Dispositivo di scorrimento della raccolta"
+      }
+    },
     "footer": {
       "name": "Footer",
       "blocks": {
