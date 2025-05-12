@@ -852,6 +852,105 @@
         "name": "特色产品系列"
       }
     },
+    "collection-slider": {
+      "name": "收藏滑块",
+      "settings": {
+        "title": {
+          "label": "标题",
+          "default": "特色产品系列"
+        },
+        "caption": {
+          "label": "字幕"          
+        },
+        "collection": {
+          "label": "产品系列"
+        },        
+        "show_view_all": {
+          "label": "“查看全部”按钮",
+          "info": "如果产品系列中的产品未全部显示，则显示"
+        },
+        "view_all_label": {
+          "label": "查看所有文字",
+          "default": "查看全部"
+        },
+        "header": {
+          "content": "产品卡"
+        },
+        "image_ratio": {
+          "label": "图片比",
+          "options__1": {
+            "label": "适应图片"
+          },
+          "options__2": {
+            "label": "纵向"
+          },
+          "options__3": {
+            "label": "方形"
+          }
+        },
+        "show_secondary_image": {
+          "label": "在悬停时显示第二张图片"
+        },
+        "show_vendor": {
+          "label": "厂商"
+        },
+        "show_rating": {
+          "label": "产品评分",
+          "info": "需要一个应用来进行评分。[详细了解](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "颜色样本"
+        },
+        "show_sizes": {
+          "label": "尺寸"
+        },
+        "enable_quick_buy": {
+          "label": "快速添加"
+        },        
+        "description": {
+          "label": "描述"
+        },
+        "show_description": {
+          "label": "从后台显示产品系列描述"
+        },
+        "description_style": {
+          "label": "描述类型",
+          "options__1": {
+            "label": "正文"
+          },
+          "options__2": {
+            "label": "副标题"
+          },
+          "options__3": {
+            "label": "大写"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "链接"
+          },
+          "options__2": {
+            "label": "轮廓按钮"
+          },
+          "options__3": {
+            "label": "实心按钮"
+          },
+          "label": "“查看全部”样式"
+        },
+        "enable_desktop_slider": {
+          "label": "轮播"
+        },        
+        "header_text": {
+          "content": "文本"
+        },
+        "header_collection": {
+          "content": "产品系列布局"
+        }
+      },
+      "presets": {
+        "name": "收藏滑块"
+      }
+    },
     "footer": {
       "name": "页脚",
       "blocks": {

@@ -852,6 +852,102 @@
         "name": "精選商品系列"
       }
     },
+    "collection-slider": {
+      "name": "最喜歡的滑桿",
+      "settings": {
+        "title": {
+          "label": "標題",
+          "default": "精選商品系列"
+        },
+        "caption": {
+          "label": "字幕"
+        },
+        "collection": {
+          "label": "商品系列"
+        },        
+        "show_view_all": {
+          "label": "「檢視全部」按鈕",
+          "info": "當商品系列的商品數量超過顯示數量時將可見"
+        },
+        "view_all_label": {
+          "label": "「查看所有標籤",
+          "default": "看全部"
+        },
+        "header": {
+          "content": "產品卡"
+        },
+        "image_ratio": {
+          "label": "圖片比例",
+          "options__1": {
+            "label": "配合圖片"
+          },
+          "options__2": {
+            "label": "縱向"
+          },
+          "options__3": {
+            "label": "正方形"
+          }
+        },
+        "show_secondary_image": {
+          "label": "游標暫留時顯示次要圖片"
+        },
+        "show_vendor": {
+          "label": "廠商"
+        },
+        "show_rating": {
+          "label": "商品評價",
+          "info": "應用程式須有評分。[瞭解詳情](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "顏色樣本"
+        },
+        "show_sizes": {
+          "label": "尺寸"
+        },
+        "enable_quick_buy": {
+          "label": "快速新增"
+        },       
+        "description": {
+          "label": "說明"
+        },
+        "show_description": {
+          "label": "顯示來自管理介面的商品系列說明"
+        },
+        "description_style": {
+          "label": "說明樣式",
+          "options__1": {
+            "label": "內文"
+          },
+          "options__2": {
+            "label": "副標題"
+          },
+          "options__3": {
+            "label": "大寫"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "連結"
+          },
+          "options__2": {
+            "label": "外框按鈕"
+          },
+          "options__3": {
+            "label": "純色按鈕"
+          },
+          "label": "「檢視更多」樣式"
+        },             
+        "header_text": {
+          "content": "文字"
+        },
+        "header_collection": {
+          "content": "商品系列版面配置"
+        }
+      },
+      "presets": {
+        "name": "最喜歡的滑桿"
+      }
+    },
     "footer": {
       "name": "頁尾",
       "blocks": {
