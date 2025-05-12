@@ -852,6 +852,102 @@
         "name": "Udvalgt kollektion"
       }
     },
+    "collection-slider": {
+      "name": "Indsamlingsskyder",
+      "settings": {
+        "title": {
+          "label": "Overskrift",
+          "default": "Udvalgt kollektion"
+        },
+        "caption": {
+          "label": "Billedtekst"
+        },
+        "collection": {
+          "label": "Kollektion"
+        },
+        "show_view_all": {
+          "label": "Knappen \"Se alle\"",
+          "info": "Synlig, hvis en kollektion har flere produkter end vist"
+        },
+        "view_all_label": {
+          "label": "Se alle etiketter",
+          "default": "Se alle"
+        },
+        "header": {
+          "content": "Produktkort"
+        },
+        "image_ratio": {
+          "label": "Billedforhold",
+          "options__1": {
+            "label": "Tilpas til billede"
+          },
+          "options__2": {
+            "label": "Stående"
+          },
+          "options__3": {
+            "label": "Kvadrat"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Vis sekundær baggrund, når der peges"
+        },
+        "show_vendor": {
+          "label": "Forhandler"
+        },
+        "show_rating": {
+          "label": "Produktbedømmelse",
+          "info": "Der kræves en app til bedømmelser. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "Swatches"
+        },
+        "show_sizes": {
+          "label": "Størrelser"
+        },
+        "enable_quick_buy": {
+          "label": "Tilføj hurtigt"
+        },
+        "description": {
+          "label": "Beskrivelse"
+        },
+        "show_description": {
+          "label": "Vis kollektionsbeskrivelse fra administrator"
+        },
+        "description_style": {
+          "label": "Beskrivelsesstil",
+          "options__1": {
+            "label": "Brødtekst"
+          },
+          "options__2": {
+            "label": "Underoverskrift"
+          },
+          "options__3": {
+            "label": "Store bogstaver"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Link"
+          },
+          "options__2": {
+            "label": "Rammeknap"
+          },
+          "options__3": {
+            "label": "Udfyldt knap"
+          },
+          "label": "Stilarten “Se alle”"
+        },       
+        "header_text": {
+          "content": "Tekst"
+        },
+        "header_collection": {
+          "content": "Kollektionens layout"
+        }
+      },
+      "presets": {
+        "name": "Indsamlingsskyder"
+      }
+    },
     "footer": {
       "name": "Sidefod",
       "blocks": {
