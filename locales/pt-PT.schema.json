@@ -852,6 +852,102 @@
         "name": "Coleção em destaque"
       }
     },
+    "collection-slider": {
+      "name": "Coleção em destaque",
+      "settings": {
+        "title": {
+          "label": "Título",
+          "default": "Coleção em destaque"
+        },
+        "caption": {
+          "label": "Legenda"
+        },
+        "collection": {
+          "label": "Coleção"
+        },        
+        "show_view_all": {
+          "label": "Botão \"Ver tudo\"",
+          "info": "Visível se a coleção tiver mais produtos do que os mostrados"
+        },
+        "view_all_label": {
+          "label": "Ver todos os rótulos",
+          "default": "Ver tudo"
+        },
+        "header": {
+          "content": "Cartão de produtos"
+        },
+        "image_ratio": {
+          "label": "Proporção de imagem",
+          "options__1": {
+            "label": "Adaptar à imagem"
+          },
+          "options__2": {
+            "label": "Retrato"
+          },
+          "options__3": {
+            "label": "Quadrado"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Mostrar a segunda imagem ao passar o rato"
+        },
+        "show_vendor": {
+          "label": "Fornecedor"
+        },
+        "show_rating": {
+          "label": "Classificação de produto",
+          "info": "É necessária uma app para as classificações. [Saber mais](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "Amostras de cores"
+        },
+        "show_sizes": {
+          "label": "Tamanhos"
+        },
+        "enable_quick_buy": {
+          "label": "Adição rápida"
+        },        
+        "description": {
+          "label": "Descrição"
+        },
+        "show_description": {
+          "label": "Mostrar descrição da coleção do painel de admin"
+        },
+        "description_style": {
+          "label": "Estilo da descrição",
+          "options__1": {
+            "label": "Corpo"
+          },
+          "options__2": {
+            "label": "Subtítulo"
+          },
+          "options__3": {
+            "label": "Maiúsculas"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Ligação"
+          },
+          "options__2": {
+            "label": "Botão de contorno"
+          },
+          "options__3": {
+            "label": "Botão sólido"
+          },
+          "label": "Estilo \"ver tudo\""
+        },        
+        "header_text": {
+          "content": "Texto"
+        },
+        "header_collection": {
+          "content": "Esquema da coleção"
+        }
+      },
+      "presets": {
+        "name": "Coleção em destaque"
+      }
+    },
     "footer": {
       "name": "Rodapé",
       "blocks": {

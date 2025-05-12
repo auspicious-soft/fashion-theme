@@ -852,6 +852,102 @@
         "name": "Utvald produktserie"
       }
     },
+    "collection-slider": {
+      "name": "Insamlingsreglage",
+      "settings": {
+        "title": {
+          "label": "Rubrik",
+          "default": "Utvald produktserie"
+        },
+        "caption": {
+          "label": "Texta"          
+        },
+        "collection": {
+          "label": "Produktserie"
+        },        
+        "show_view_all": {
+          "label": "\"Visa alla\"-knappen",
+          "info": "Synligt om produktserien har fler produkter än vad som visas"
+        },
+        "view_all_label": {
+          "label": "Visa alla etiketter",
+          "default": "Visa alla"
+        },
+        "header": {
+          "content": "Produktkort"
+        },
+        "image_ratio": {
+          "label": "Bildförhållande",
+          "options__1": {
+            "label": "Anpassa till bild"
+          },
+          "options__2": {
+            "label": "Porträtt"
+          },
+          "options__3": {
+            "label": "Fyrkantig"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Visa andra bild på hovring"
+        },
+        "show_vendor": {
+          "label": "Säljare"
+        },
+        "show_rating": {
+          "label": "Produktbetyg",
+          "info": "En app krävs för bedömningar. [Mer information](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "Färgprover"
+        },
+        "show_sizes": {
+          "label": "Storlekar"
+        },
+        "enable_quick_buy": {
+          "label": "Lägg till direkt"
+        },        
+        "description": {
+          "label": "Beskrivning"
+        },
+        "show_description": {
+          "label": "Visa produktseriebeskrivning från admin"
+        },
+        "description_style": {
+          "label": "Beskrivningsstil",
+          "options__1": {
+            "label": "Brödtext"
+          },
+          "options__2": {
+            "label": "Underrubrik"
+          },
+          "options__3": {
+            "label": "Stora bokstäver"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Länk"
+          },
+          "options__2": {
+            "label": "Knappkontur"
+          },
+          "options__3": {
+            "label": "Tydlig knapp"
+          },
+          "label": "\"Visa alla\"-stil"
+        },        
+        "header_text": {
+          "content": "Text"
+        },
+        "header_collection": {
+          "content": "Layout för produktserier"
+        }
+      },
+      "presets": {
+        "name": "Insamlingsreglage"
+      }
+    },
     "footer": {
       "name": "Sidfot",
       "blocks": {
