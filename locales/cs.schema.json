@@ -852,6 +852,102 @@
         "name": "Propagovaná kolekce"
       }
     },
+    "collection-slider": {
+      "name": "Posuvník kolekce",
+      "settings": {
+        "title": {
+          "label": "Nadpis",
+          "default": "Propagovaná kolekce"
+        },
+        "caption": {
+          "label": "Titulek"          
+        },
+        "collection": {
+          "label": "Kolekce"
+        },       
+        "show_view_all": {
+          "label": "Tlačítko „Zobrazit vše“",
+          "info": "Viditelné, pokud kolekce obsahuje více produktů, než je jich zobrazeno"
+        },
+        "header": {
+          "content": "Karta produktu"
+        },
+        "image_ratio": {
+          "label": "Poměr obrázku",
+          "options__1": {
+            "label": "Přizpůsobení obrázku"
+          },
+          "options__2": {
+            "label": "Na výšku"
+          },
+          "options__3": {
+            "label": "Čtverec"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Zobrazit druhý obrázek po najetí myší/prstem"
+        },
+        "show_vendor": {
+          "label": "Dodavatel"
+        },
+        "show_rating": {
+          "label": "Hodnocení produktu",
+          "info": "Pro hodnocení je nutná aplikace. [Zjistit více](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "Vzorníky"
+        },
+        "show_sizes": {
+          "label": "Velikosti"
+        },
+        "description": {
+          "label": "Popis"
+        },
+        "show_description": {
+          "label": "Zobrazit popis kolekce z administrátorského rozhraní"
+        },
+        "description_style": {
+          "label": "Styl popisu",
+          "options__1": {
+            "label": "Hlavní část"
+          },
+          "options__2": {
+            "label": "Podtitul"
+          },
+          "options__3": {
+            "label": "Velká písmena"
+          }
+        },
+        "view_all_style": {
+          "label": "Zobrazit vše – styl",
+          "options__1": {
+            "label": "Odkaz"
+          },
+          "options__2": {
+            "label": "Tlačítko s obrysem"
+          },
+          "options__3": {
+            "label": "Tlačítko v jednolité barvě"
+          }
+        },
+        "view_all_label": {
+          "label": "View all label",
+          "default": "Zobrazit vše"
+        },       
+        "enable_quick_buy": {
+          "label": "Rychlé přidání"
+        },
+        "header_text": {
+          "content": "Text"
+        },
+        "header_collection": {
+          "content": "Rozložení sbírky"
+        }
+      },
+      "presets": {
+        "name": "Propagovaná kolekce"
+      }
+    },
     "footer": {
       "name": "Zápatí",
       "blocks": {
