@@ -852,6 +852,102 @@
         "name": "Uitgelichte collectie"
       }
     },
+    "collection-slider": {
+      "name": "Collectieschuifregelaar",
+      "settings": {
+        "title": {
+          "label": "Opschrift",
+          "default": "Uitgelichte collectie"
+        },
+        "caption": {
+          "label": "Opschrift"          
+        },
+        "collection": {
+          "label": "Collectie"
+        },        
+        "show_view_all": {
+          "label": "Knop 'Alles weergeven'",
+          "info": "Zichtbaar als een collectie meer producten heeft dan weergegeven"
+        },
+        "view_all_label": {
+          "label": "Bekijk alle etiketten",
+          "default": "Bekijk alles"
+        },
+        "header": {
+          "content": "Productkaart"
+        },
+        "image_ratio": {
+          "label": "Breedte-/hoogteverhouding van afbeeldingen",
+          "options__1": {
+            "label": "Aanpassen aan afbeelding"
+          },
+          "options__2": {
+            "label": "Portret"
+          },
+          "options__3": {
+            "label": "Vierkant"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Tweede afbeeldingen tonen als je de aanwijzer erboven houdt"
+        },
+        "show_vendor": {
+          "label": "Verkoper"
+        },
+        "show_rating": {
+          "label": "Productbeoordeling",
+          "info": "Een app is vereist voor beoordelingen. [Meer informatie](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },  
+        "show_swatches": {
+          "label": "Swatches"
+        },
+        "show_sizes": {
+          "label": "Maten"
+        },     
+        "description": {
+          "label": "Beschrijving"
+        },
+        "show_description": {
+          "label": "Collectiebeschrijving uit beheerpaneel weergeven"
+        },
+        "description_style": {
+          "label": "Stijl beschrijving",
+          "options__1": {
+            "label": "Hoofdtekst"
+          },
+          "options__2": {
+            "label": "Subtitel"
+          },
+          "options__3": {
+            "label": "Hoofdletters"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Link"
+          },
+          "options__2": {
+            "label": "Knop Omlijnen"
+          },
+          "options__3": {
+            "label": "Knop Effen"
+          },
+          "label": "Stijl 'Alles weergeven'"
+        },        
+        "enable_quick_buy": {
+          "label": "Snel toevoegen"
+        },
+        "header_text": {
+          "content": "Tekst"
+        },
+        "header_collection": {
+          "content": "Opmaak collectie"
+        }
+      },
+      "presets": {
+        "name": "Collectieschuifregelaar"
+      }
+    },
     "footer": {
       "name": "Voettekst",
       "blocks": {

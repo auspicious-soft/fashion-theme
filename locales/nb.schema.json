@@ -852,6 +852,102 @@
         "name": "Fremhevet samling"
       }
     },
+    "collection-slider": {
+      "name": "Innsamlingsglidebryter",
+      "settings": {
+        "title": {
+          "label": "Overskrift",
+          "default": "Fremhevet samling"
+        },
+        "caption": {
+          "label": "Bildetekst"
+        },
+        "collection": {
+          "label": "Samling"
+        },        
+        "show_view_all": {
+          "label": "«Se alt»-knapp",
+          "info": "Synlig hvis samlingen har flere produkter enn det som vises"
+        },
+        "view_all_label": {
+          "label": "Se alle etiketter",
+          "default": "Se alle"
+        },
+        "header": {
+          "content": "Produktkort"
+        },
+        "image_ratio": {
+          "label": "Bildeforhold",
+          "options__1": {
+            "label": "Tilpass til bilde"
+          },
+          "options__2": {
+            "label": "Portrett"
+          },
+          "options__3": {
+            "label": "Kvadratisk"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Vis sekundærbilde når musepekeren beveges over"
+        },
+        "show_vendor": {
+          "label": "Selger"
+        },
+        "show_rating": {
+          "label": "Produktanmeldelse",
+          "info": "En app kreves for anmeldelser. [Finn ut mer](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },  
+        "show_swatches": {
+          "label": "Fargeprøver"
+        },
+        "show_sizes": {
+          "label": "Størrelser"
+        },     
+        "description": {
+          "label": "Beskrivelse"
+        },
+        "show_description": {
+          "label": "Vis samlingsbeskrivelse fra administrator"
+        },
+        "description_style": {
+          "label": "Beskrivelsesstil",
+          "options__1": {
+            "label": "Brødtekst"
+          },
+          "options__2": {
+            "label": "Undertekst"
+          },
+          "options__3": {
+            "label": "Store bokstaver"
+          }
+        },
+        "view_all_style": {
+          "label": "«Vis alle»-stil",
+          "options__1": {
+            "label": "Kobling"
+          },
+          "options__2": {
+            "label": "Omriss rundt knapp"
+          },
+          "options__3": {
+            "label": "Helfarget knapp"
+          }
+        },       
+        "enable_quick_buy": {
+          "label": "Hurtigregistrering"
+        },
+        "header_text": {
+          "content": "Tekst"
+        },
+        "header_collection": {
+          "content": "Layout for samling"
+        }
+      },
+      "presets": {
+        "name": "Innsamlingsglidebryter"
+      }
+    },
     "footer": {
       "name": "Bunntekst",
       "blocks": {

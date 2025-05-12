@@ -852,6 +852,102 @@
         "name": "特集コレクション"
       }
     },
+    "collection-slider": {
+      "name": "コレクションスライダー",
+      "settings": {
+        "title": {
+          "label": "見出し",
+          "default": "特集コレクション"
+        },
+        "caption": {
+          "label": "キャプション"
+        },
+        "collection": {
+          "label": "コレクション"
+        },        
+        "show_view_all": {
+          "label": "「すべて表示」ボタン",
+          "info": "コレクションに表示されているよりも多くの商品がある場合に表示されます"
+        },
+        "view_all_label": {
+          "label": "すべてのラベルを表示",
+          "default": "全て見る"
+        },
+        "header": {
+          "content": "商品カード"
+        },
+        "image_ratio": {
+          "label": "画像比",
+          "options__1": {
+            "label": "画像に合わせる"
+          },
+          "options__2": {
+            "label": "ポートレート"
+          },
+          "options__3": {
+            "label": "正方形"
+          }
+        },
+        "show_secondary_image": {
+          "label": "マウスオーバー時に2番目の画像を表示する"
+        },
+        "show_vendor": {
+          "label": "販売元"
+        },
+        "show_rating": {
+          "label": "商品評価",
+          "info": "評価にはアプリが必要です。[詳しくはこちら](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "スウォッチ"
+        },
+        "show_sizes": {
+          "label": "サイズ"
+        },
+        "enable_quick_buy": {
+          "label": "クイック追加"
+        },
+        "description": {
+          "label": "説明"
+        },
+        "show_description": {
+          "label": "管理画面からコレクションの説明を表示する"
+        },
+        "description_style": {
+          "label": "説明のスタイル",
+          "options__1": {
+            "label": "本文"
+          },
+          "options__2": {
+            "label": "サブタイトル"
+          },
+          "options__3": {
+            "label": "大文字"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "リンク"
+          },
+          "options__2": {
+            "label": "アウトラインボタン"
+          },
+          "options__3": {
+            "label": "ソリッドカラーのボタン"
+          },
+          "label": "「すべてを表示」のスタイル"
+        },       
+        "header_text": {
+          "content": "テキスト"
+        },
+        "header_collection": {
+          "content": "コレクションレイアウト"
+        }
+      },
+      "presets": {
+        "name": "コレクションスライダー"
+      }
+    },
     "footer": {
       "name": "フッター",
       "blocks": {

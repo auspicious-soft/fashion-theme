@@ -852,6 +852,102 @@
         "name": "추천 컬렉션"
       }
     },
+    "collection-slider": {
+      "name": "컬렉션 슬라이더",
+      "settings": {
+        "title": {
+          "label": "제목",
+          "default": "추천 컬렉션"
+        },
+        "caption": {
+          "label": "부제"          
+        },
+        "collection": {
+          "label": "컬렉션"
+        },        
+        "show_view_all": {
+          "label": "\"모두 보기\" 버튼",
+          "info": "컬렉션에 표시된 것보다 많은 제품이 있는 경우 표시됩니다"
+        },
+        "view_all_label": {
+          "label": "모든 라벨 보기",
+          "default": "모두 보기"
+        },
+        "header": {
+          "content": "제품 카드"
+        },
+        "image_ratio": {
+          "label": "이미지 비율",
+          "options__1": {
+            "label": "이미지에 맞춤"
+          },
+          "options__2": {
+            "label": "세로형"
+          },
+          "options__3": {
+            "label": "정사각형"
+          }
+        },
+        "show_secondary_image": {
+          "label": "마우스를 올리면 보조 배경 표시"
+        },
+        "show_vendor": {
+          "label": "공급업체"
+        },
+        "show_rating": {
+          "label": "제품 평점",
+          "info": "평점을 표시하려면 앱이 필요합니다. [자세히 알아보기](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "show_swatches": {
+          "label": "Swatches"
+        },
+        "show_sizes": {
+          "label": "크기"
+        },
+        "enable_quick_buy": {
+          "label": "빠른 추가"
+        },        
+        "description": {
+          "label": "설명"
+        },
+        "show_description": {
+          "label": "관리자 패널의 컬렉션 설명 표시"
+        },
+        "description_style": {
+          "label": "설명 스타일",
+          "options__1": {
+            "label": "본문"
+          },
+          "options__2": {
+            "label": "소제목"
+          },
+          "options__3": {
+            "label": "대문자"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "링크"
+          },
+          "options__2": {
+            "label": "윤곽 버튼"
+          },
+          "options__3": {
+            "label": "단색 버튼"
+          },
+          "label": "\"모두 보기\" 스타일"
+        },        
+        "header_text": {
+          "content": "텍스트"
+        },
+        "header_collection": {
+          "content": "컬렉션 레이아웃"
+        }
+      },
+      "presets": {
+        "name": "컬렉션 슬라이더"
+      }
+    },
     "footer": {
       "name": "바닥글",
       "blocks": {
