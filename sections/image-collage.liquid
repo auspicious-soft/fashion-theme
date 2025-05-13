@@ -13,10 +13,8 @@
 {%- endstyle -%}
 
 {%- liquid
-  assign desktop_layout = 'big-top'
-  if section.settings.desktop_layout == 'bottom'
-    assign desktop_layout = 'big-bottom'
-  endif  
+  assign desktop_layout = big-section.settings.desktop_layout
+
 -%}
 
 
