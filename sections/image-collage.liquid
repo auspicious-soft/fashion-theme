@@ -25,13 +25,13 @@
         {%- for block in section.blocks -%}
 
             {%- if forloop.index == 1 -%}
-                <div class="top-row">
+                <div class="image-row">
                     <img class="big-image" src="{{block.settings.image | img_url:''}}">
                 </div>
             {%- endif -%}
 
             {%- if forloop.index == 2 -%}
-                <div class="bottom-row">
+                <div class="image-row">
                     <div class="left">
                         <img class="image-item" src="{{block.settings.image | img_url:''}}">
                     </div>
@@ -45,7 +45,6 @@
                 </div>
             {%- endif -%}
         {%- endfor -%}
-
     </div>  
 </div>
 
