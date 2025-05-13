@@ -12,6 +12,15 @@
   }
 {%- endstyle -%}
 
+{%- liquid
+  assign desktop_layout = 'big-top'
+  if section.setting.desktop_layout == 'bottom'
+    assign desktop_layout = 'big-bottom'
+  endif  
+-%}
+
+
+
 <div class="color-{{ section.settings.color_scheme }} gradient isolate">
     <div class="collage-wrapper section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
@@ -20,30 +29,11 @@
       </h2>
     {%- endif -%}
 
-    <div class="image-collage{% if section.settings.mobile_layout == 'collage' %} image-collage--mobile{% endif %}">
-
+    <div class="image-collage {{desktop_layout}} {% if section.settings.mobile_layout == 'collage' %} image-collage--mobile{% endif %}">
         {%- for block in section.blocks -%}
-
-            {%- if forloop.index == 1 -%}
-                <div class="image-row">
-                    <img class="big-image" src="{{block.settings.image | img_url:''}}">
-                </div>
-            {%- endif -%}
-
-            {%- if forloop.index == 2 -%}
-                <div class="image-row">
-                    <div class="left">
-                        <img class="image-item" src="{{block.settings.image | img_url:''}}">
-                    </div>
-            {%- endif -%}
-            {%- if forloop.index == 3 -%}
-                <div class="right">
-                    <img class="big-image-item" src="{{block.settings.image | img_url:''}}">
-                </div>
-            {%- endif -%}
-            {%- if forloop.last -%}
-                </div>
-            {%- endif -%}
+            <div class="image-item">
+                <img src="{{ block.setting.image | img_url:'' }}">
+            </div>            
         {%- endfor -%}
     </div>  
 </div>
