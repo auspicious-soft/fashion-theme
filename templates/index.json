@@ -168,11 +168,11 @@
       "settings": {
         "image": "shopify://shop_images/Untitled_1080x1920px_2x3in_3_cd26f8f9-a30c-4a00-852f-7052359a5a42.png",
         "secondary_image": "shopify://shop_images/4_9a1a2791-9e08-4552-bb4e-8dc91d4d202f.png",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
