@@ -12,14 +12,6 @@
   }
 {%- endstyle -%}
 
-{%- liquid
-  assign desktop_layout = 'big-top'
-
-  if section.settings.desktop_layout == bottom
-    assign desktop_layout = 'big-bottom'
-  endif
-
--%}
 
 
 
@@ -31,7 +23,7 @@
       </h2>
     {%- endif -%}
 
-    <div class="image-collage {{desktop_layout}}{% if section.settings.mobile_layout == 'collage' %} image-collage--mobile{% endif %}">
+    <div class="image-collage big-{{section.settings.desktop_layout}}{% if section.settings.mobile_layout == 'collage' %} image-collage--mobile{% endif %}">
         {%- for block in section.blocks -%}
             <div class="image-item">
                 <img src="{{ block.settings.image | img_url:'' }}">
