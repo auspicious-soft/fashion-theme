@@ -223,18 +223,11 @@
           "settings": {
             "image": "shopify://shop_images/image_4.png"
           }
-        },
-        "image_rzXpkj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/image_5.png"
-          }
         }
       },
       "block_order": [
         "image_axUB7z",
-        "image_QBYTqL",
-        "image_rzXpkj"
+        "image_QBYTqL"
       ],
       "name": "Image collage",
       "settings": {
