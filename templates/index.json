@@ -101,7 +101,7 @@
       "type": "collection-slider",
       "name": "Collection slider",
       "settings": {
-        "collection": "spring-break-sale",
+        "collection": "summer-25-collection",
         "caption": "NEW ARRIVALS",
         "title": "SPRING BREAK SALE1",
         "heading_size": "h1",
@@ -130,30 +130,30 @@
         "caption_kHG6Dx": {
           "type": "caption",
           "settings": {
-            "caption": "Add a tagline",
+            "caption": "Floral Collection",
             "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "text_size": "small"
           }
         },
         "heading_3YHTbe": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "FLORAL DREAMS",
             "heading_size": "h1"
           }
         },
         "text_8G7wRR": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Step into a coastal daydream. Our Floral Dreams Collection is a love letter to the beauty of coastal blooms – made for the feminine, flirty, and flower-loving girlies. Your swimwear dreams, wrapped in petals</p>",
             "text_style": "body"
           }
         },
         "button_UPDd7g": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Shop The Floral Collection",
+            "button_link": "shopify://collections/summer-25-collection",
             "button_style_secondary": false
           }
         }
@@ -166,17 +166,45 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Untitled_1080x1920px_2x3in_3_cd26f8f9-a30c-4a00-852f-7052359a5a42.png",
-        "height": "adapt",
+        "image": "shopify://shop_images/1_a990d40a-2586-478a-b34f-fbd5373bd202.png",
+        "secondary_image": "shopify://shop_images/3_6a29e88f-ebf1-4c5c-95a7-a5ecb76c9dd7.png",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-1",
         "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_slider_KeiwCi": {
+      "type": "collection-slider",
+      "name": "Collection slider",
+      "settings": {
+        "collection": "spring-break-sale",
+        "caption": "New Arrivals",
+        "title": "SPRING BREAK SALE1",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "SHOP Spring Break",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_swatches": false,
+        "show_sizes": false,
+        "quick_add": "none",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -186,6 +214,7 @@
     "hero_banner_n4Pdwf",
     "rich_text_KWFgrC",
     "collection_slider_gMDRjb",
-    "image_with_text_3tgDWL"
+    "image_with_text_3tgDWL",
+    "collection_slider_KeiwCi"
   ]
 }
