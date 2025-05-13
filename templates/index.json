@@ -181,12 +181,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collection_slider_KeiwCi": {
+      "type": "collection-slider",
+      "name": "Collection slider",
+      "settings": {
+        "collection": "spring-break-sale",
+        "caption": "New Arrivals",
+        "title": "SPRING BREAK SALE1",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "SHOP Spring Break",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_swatches": false,
+        "show_sizes": false,
+        "quick_add": "none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "hero_banner_n4Pdwf",
     "rich_text_KWFgrC",
     "collection_slider_gMDRjb",
-    "image_with_text_3tgDWL"
+    "image_with_text_3tgDWL",
+    "collection_slider_KeiwCi"
   ]
 }
