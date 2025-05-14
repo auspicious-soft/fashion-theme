@@ -38,7 +38,7 @@
 }
 .image-collage .image-item:nth-child(1) img {
     aspect-ratio: 1/.31;
-}
+}  
 .image-collage.big-bottom .image-item:nth-child(3) img {
     aspect-ratio: 1/.31;
 } 
@@ -47,7 +47,8 @@
         grid-template-columns: 1fr;
     }
     
-    .image-collage.image-column--mobile .image-item {
-        grid-column: span 1 !important;
+    .image-collage.image-column--mobile .image-item,
+    .image-collage.big-bottom.image-column--mobile .image-item {
+        grid-column: span 1 ;
     }
 }
