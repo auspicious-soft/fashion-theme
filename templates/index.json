@@ -244,8 +244,8 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "desktop_layout": "bottom",
-        "mobile_layout": "collage",
+        "desktop_layout": "top",
+        "mobile_layout": "column",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
