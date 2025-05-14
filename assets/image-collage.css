@@ -32,7 +32,7 @@
     .image-collage.big-bottom.image-column--mobile .image-item {
         grid-column: span 1 ;
     }
-    .image-collage.big-bottom.image-column--mobile img{
+    .image-collage.image-column--mobile img{
         aspect-ratio: 1/1; 
     }
 }
