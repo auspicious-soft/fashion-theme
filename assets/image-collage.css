@@ -1,0 +1,10 @@
+.image-collage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image-collage.big-top img {
+    display: block;
+    width: 100%;
+}
