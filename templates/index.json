@@ -241,7 +241,7 @@
         "heading": "",
         "heading_size": "h1",
         "desktop_layout": "top",
-        "mobile_layout": "collage",
+        "mobile_layout": "column",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
