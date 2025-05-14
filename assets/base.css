@@ -3019,7 +3019,7 @@ details-disclosure>details {
 
 .global-media-settings {
   position: relative;
-  border-radius: var(--media-radius);
+  border-radius: var(--media-radius);  
   overflow: visible !important;
 }
 
