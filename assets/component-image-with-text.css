@@ -418,7 +418,7 @@
 .secondary-image .image-with-text__media-item .image-with-text__media:nth-child(2) {
   position: absolute;
   top: 110px;
-  right: 0;
+  right: 0;  
   max-width: 57%;
   width: 100%;
 }
