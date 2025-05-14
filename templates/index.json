@@ -102,8 +102,8 @@
       "name": "Collection slider",
       "settings": {
         "collection": "summer-25-collection",
-        "caption": "NEW ARRIVALS",
-        "text_style": "subtitle",
+        "caption": "New Arrivals",
+        "text_style": "caption-with-letter-spacing",
         "text_size": "medium",
         "title": "SPRING BREAK SALE1",
         "heading_size": "h1",
