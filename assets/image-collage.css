@@ -42,3 +42,12 @@
 .image-collage.big-bottom .image-item:nth-child(3) img {
     aspect-ratio: 1/.31;
 } 
+@media screen and (max-width: 749px) {
+    .image-collage.image-column--mobile {
+        grid-template-columns: 1fr;
+    }
+    
+    .image-collage.image-column--mobile .image-item {
+        grid-column: span 1;
+    }
+}
