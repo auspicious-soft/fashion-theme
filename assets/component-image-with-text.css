@@ -426,9 +426,7 @@
 .secondary-image .image-with-text__media-item .image-with-text__media {
   max-width: 57%;
 }   
-.secondary-image {
-  margin-bottom: 66px;
-}
+
 .text-p-0 .image-with-text__content {
   padding: 0;
 }
@@ -439,5 +437,13 @@
   .text-p-0 .image-with-text__content {
     padding: 0;
     padding-left: 35px;
+}
+.secondary-image {
+  margin-bottom: 66px;
+}
+}
+@media screen and (max-width: 749px) {
+.secondary-image .image-with-text__media-item {
+  margin-bottom: 110px;
 }
 }
