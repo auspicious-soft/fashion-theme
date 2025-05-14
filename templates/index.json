@@ -103,6 +103,8 @@
       "settings": {
         "collection": "summer-25-collection",
         "caption": "NEW ARRIVALS",
+        "text_style": "subtitle",
+        "text_size": "medium",
         "title": "SPRING BREAK SALE1",
         "heading_size": "h1",
         "description": "",
@@ -188,6 +190,8 @@
       "settings": {
         "collection": "spring-break-sale",
         "caption": "New Arrivals",
+        "text_style": "caption-with-letter-spacing",
+        "text_size": "medium",
         "title": "SPRING BREAK SALE1",
         "heading_size": "h1",
         "description": "",
