@@ -429,3 +429,15 @@
 .secondary-image {
   margin-bottom: 66px;
 }
+.text-p-0 .image-with-text__content {
+  padding: 0;
+}
+.text-p-0 .image-with-text__grid {
+  gap: 20px;
+}
+@media screen and (min-width: 750px) {
+  .text-p-0 .image-with-text__content {
+    padding: 0;
+    padding-left: 35px;
+}
+}
