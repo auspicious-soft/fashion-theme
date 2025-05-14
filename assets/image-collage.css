@@ -24,3 +24,21 @@
   .image-collage.big-bottom .image-item:nth-child(2) { 
     grid-column: span 1; 
   }
+  .image-collage .image-item img{
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .image-collage .image-item:nth-child(2) img,
+  .image-collage .image-item:nth-child(3) img {
+    aspect-ratio: 1/0.8;
+  }
+  .image-collage.big-bottom .image-item:nth-child(1) img, .image-collage.big-bottom .image-item:nth-child(2) img {
+    aspect-ratio: 1/0.8;
+}
+.image-collage .image-item:nth-child(1) img {
+    aspect-ratio: 1/0.5;
+}
+.image-collage.big-bottom .image-item:nth-child(3) img {
+    aspect-ratio: 1/0.5;
+}
