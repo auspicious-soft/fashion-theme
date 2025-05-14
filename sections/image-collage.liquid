@@ -24,7 +24,7 @@
       </h2>
     {%- endif -%}
 
-    <div class="image-collage big-{{section.settings.desktop_layout}}{% if section.settings.mobile_layout == 'collage' %} image-collage--mobile{% endif %}">
+    <div class="image-collage big-{{section.settings.desktop_layout}}{% if section.settings.mobile_layout == 'column' %} image-column--mobile{% endif %}">
         {%- for block in section.blocks -%}
             <div class="image-item">
                 <img src="{{ block.settings.image | img_url:'' }}">
@@ -109,7 +109,7 @@
           "label": "t:sections.collage.settings.mobile_layout.options__2.label"
         }
       ],
-      "default": "column",
+      "default": "collage",
       "label": "t:sections.collage.settings.mobile_layout.label"
     },    
     {
