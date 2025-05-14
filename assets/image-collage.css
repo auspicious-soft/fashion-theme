@@ -22,7 +22,7 @@
   .image-collage.big-bottom .image-item:nth-child(1) {
     order: 3;
 }
-
+  
 @media screen and (max-width: 749px) {
     .image-collage.image-column--mobile {
         grid-template-columns: 1fr;
