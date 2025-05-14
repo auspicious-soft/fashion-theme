@@ -168,7 +168,7 @@
       "settings": {
         "image": "shopify://shop_images/image_2.jpg",
         "secondary_image": "shopify://shop_images/image_3.jpg",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
