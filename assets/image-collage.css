@@ -1,6 +1,8 @@
-.image-collage.big-top img {
+.image-collage img {
     display: block;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .image-collage {
     display: grid;
@@ -23,10 +25,6 @@
   .image-collage.big-bottom .image-item:nth-child(1),
   .image-collage.big-bottom .image-item:nth-child(2) { 
     grid-column: span 1; 
-  }
-  .image-collage .image-item img{
-    object-fit: cover;
-    object-position: center;
   }
   
   .image-collage .image-item:nth-child(2) img,
