@@ -1,0 +1,274 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+
+<div class="video-slider-main color-{{ section.settings.color_scheme }} isolate gradient section-{{ section.id }}-padding">
+    <div class="page-width">
+        <div class="content-wrapper {{ section.settings.content_alignment }}">
+            <div class="header-wrapper">
+
+                {%- if section.settings.caption != blank -%}
+                    <p
+                    class="image-with-text__text image-with-text__text--caption {{ section.settings.text_style }} {{ section.settings.text_style }}--{{ section.settings.text_size }} {{ section.settings.text_style }}"
+                    >
+                    {{ section.settings.caption | escape }}
+                    </p> 
+                {%- endif -%}
+
+                {%- if section.settings.title != blank -%}
+                    <h2 class="title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+                    {{ section.settings.title }}
+                    </h2>
+                {%- endif -%}
+
+            </div>
+
+            <div class="slider-wrapper">
+                <div class="slider swiper slider-video">
+                    <div class="swiper-wrapper">
+                         {% for block in section.blocks %}
+                            {% case block.type %}
+                                {% when 'video' %}
+                                    <div class="slide">
+                                        <div class="video-card">
+                                            {% if block.settings.link != blank %}
+                                                <a href="{{ block.settings.link }}">
+                                            {% endif %}
+
+                                            <div class="video-wrapper">
+                                                {% if block.settings.video != blank %}
+                                                {{
+                                                    block.settings.video
+                                                    | video_tag: autoplay: true, loop: true, controls: false, muted: true
+                                                }}
+                                                {% endif %}
+                                            </div>
+
+                                            <div class="video-card-footer">
+                                                <div class="footer-image-wrapper">
+                                                    {% if block.settings.image != blank %}
+                                                        <img class="mobile-image" src="{{ block.settings.image | img_url: "master" }}" alt="Main Image">                                                                        
+                                                    {% endif %}
+                                                </div>
+
+                                                <div class="footer-content-wrapper">
+                                                    <h5>{{ block.settings.title }}</h5>
+                                                </div>
+                                            </div>
+
+                                            {% if block.settings.link != blank %}
+                                                </a>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                            {% endcase %}
+                         {% endfor %}
+                    </div>
+                    <div class="swiper-button-next">{% render 'right-slider-arrow' %}</div>
+                    <div class="swiper-button-prev">{% render 'left-slider-arrow' %}</div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+ 
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".slider-video", {
+    slidesPerView: 4,
+    spaceBetween: 20,
+     navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    breakpoints: {
+      320: {
+        slidesPerView: 1.6,
+        spaceBetween: 12,
+      },
+      556: {
+        slidesPerView: 3.5,
+        spaceBetween: 16,
+      },
+      749: {
+        slidesPerView: 4,
+      },
+    },
+  });
+</script>
+{% schema %}
+{
+  "name": "Video slider",
+  "settings": [
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.content_alignment.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.rich-text.settings.content_alignment.label"
+    },
+    {
+        "type": "text",
+        "id": "caption",
+        "label": "Caption"
+    },
+    {
+      "type": "select",
+      "id": "text_style",
+      "options": [
+        {
+          "value": "subtitle",
+          "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__1.label"
+        },
+        {
+          "value": "caption-with-letter-spacing",
+          "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__2.label"
+        }
+      ],
+      "default": "caption-with-letter-spacing",
+      "label": "t:sections.image-with-text.blocks.caption.settings.text_style.label"
+    },
+    {
+      "type": "select",
+      "id": "text_size",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__1.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__3.label"
+        }
+      ],
+      "default": "medium",
+      "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.label"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "t:sections.collection-slider.settings.title.default",
+      "label": "t:sections.collection-slider.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "info": "t:sections.all.colors.has_cards_info",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "Video",
+      "settings": [
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Video"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Video title"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video slider"
+    }
+  ]
+}
+{% endschema %}
