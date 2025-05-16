@@ -93,7 +93,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "show-divider": false,
+        "show-divider": true,
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
