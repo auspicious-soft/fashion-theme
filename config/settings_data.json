@@ -145,11 +145,11 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#121212",
+          "text": "#212b36",
           "button": "#212b36",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "secondary_button_label": "#212b36",
+          "shadow": "#212b36"
         }
       },
       "scheme-2": {
