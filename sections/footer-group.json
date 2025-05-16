@@ -43,7 +43,7 @@
         "background-image": "shopify://shop_images/p5.webp",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 40
       }
     },
     "footer": {
