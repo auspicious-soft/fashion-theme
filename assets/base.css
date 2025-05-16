@@ -440,7 +440,12 @@ table:not([class]) th {
   padding: 1em;
   border: 0.1rem solid rgba(var(--color-foreground), 0.2);
 }
-
+.mt-0 {
+    margin-top: 0 !important;
+} 
+.mb-0 {
+    margin-bottom: 0 !important;
+}
 @media screen and (max-width: 749px) {
   .small-hide {
     display: none !important;

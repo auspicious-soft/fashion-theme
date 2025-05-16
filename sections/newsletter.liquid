@@ -12,19 +12,20 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-  }
+  } 
 {%- endstyle -%}
   
-<div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}"> 
-  <div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding"  style="background-image:url({{section.settings.background-image | img_url}})">
+<div class="newsletter center newsletter-full_width {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}"> 
+  <div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding"  style="background-image:url({{section.settings.background-image | img_url: '' }})">
+   <div class="newsletter-grid narrow-width">
     <div class="content-wrapper">
-      {%- for block in section.blocks -%}
-        {%- case block.type -%}
+      {%- for block in section.blocks -%}  
+        {%- case block.type -%} 
           {%- when '@app' -%}
             {% render block %}
           {%- when 'heading' -%}
             <h2
-              class="inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              class="inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} mt-0 mb-0"
               {{ block.shopify_attributes }}
               {% if settings.animations_reveal_on_scroll %}
                 data-cascade
@@ -125,6 +126,7 @@
             </div>
         {%- endcase -%}
       {%- endfor -%}
+    </div>
     </div>   
   </div>
 </div>
