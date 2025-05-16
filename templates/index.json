@@ -346,13 +346,23 @@
             "title": "Peek a boo",
             "link": "shopify://products/one-piece-sculpting-peek-a-boo"
           }
+        },
+        "video_pPh6jr": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/v1.mp4",
+            "image": "shopify://shop_images/p1.webp",
+            "title": "Push-Up Cherry Bombshell",
+            "link": "shopify://products/push-up-cherry-bombshell-top"
+          }
         }
       },
       "block_order": [
         "video_9Wj94g",
         "video_mMJhJQ",
         "video_T69bpd",
-        "video_zBB9E3"
+        "video_zBB9E3",
+        "video_pPh6jr"
       ],
       "name": "Video slider",
       "settings": {
