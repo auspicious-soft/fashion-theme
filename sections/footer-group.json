@@ -42,8 +42,8 @@
         "color_scheme": "scheme-90aa33e6-e0ad-4cba-aaba-0a33763f6f67",
         "background-image": "shopify://shop_images/p5.webp",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "footer": {
