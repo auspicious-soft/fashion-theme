@@ -3630,3 +3630,9 @@ details-disclosure>details {
     transform: translateX(100%) scaleX(0);
   }
 }
+.swiper-wrapper .swiper-button-next, .swiper-wrapper .swiper-rtl .swiper-button-prev {
+    right: 0;
+}
+.swiper-wrapper .swiper-button-prev, .swiper-wrapper .swiper-rtl .swiper-button-next {
+    left: 0;
+}
