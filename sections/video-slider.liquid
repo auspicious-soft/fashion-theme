@@ -43,7 +43,7 @@
                          {% for block in section.blocks %}
                             {% case block.type %}
                                 {% when 'video' %}
-                                    <div class="slide">
+                                    <div class="slide swiper-slide">
                                         <div class="video-card">
                                             {% if block.settings.link != blank %}
                                                 <a href="{{ block.settings.link }}">
