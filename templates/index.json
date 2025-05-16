@@ -328,11 +328,21 @@
             "title": "Push-up Marshmallow Cloud",
             "link": "shopify://products/cheeky-bottom"
           }
+        },
+        "video_T69bpd": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/v3.mp4",
+            "image": "shopify://shop_images/p12.webp",
+            "title": "BLUSH BELLE",
+            "link": "shopify://products/bandeau-sun-kiss-bikini-bottom"
+          }
         }
       },
       "block_order": [
         "video_9Wj94g",
-        "video_mMJhJQ"
+        "video_mMJhJQ",
+        "video_T69bpd"
       ],
       "name": "Video slider",
       "settings": {
