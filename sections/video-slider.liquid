@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+{{ 'component-video-slider.css' | asset_url | stylesheet_tag }}
 {%- style -%}
-  .section-{{ section.id }}-padding {
+  .section-{{ section.id }}-padding { 
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
@@ -96,15 +96,19 @@
         prevEl: ".swiper-button-prev",
       },
     breakpoints: {
-      320: {
-        slidesPerView: 1.6,
+      0: { 
+        slidesPerView: 1.5,
         spaceBetween: 12,
       },
-      556: {
+      576: {
+        slidesPerView: 2.5,
+        spaceBetween: 16,
+      },
+       750: {
         slidesPerView: 3.5,
         spaceBetween: 16,
       },
-      749: {
+      990: {
         slidesPerView: 4,
       },
     },

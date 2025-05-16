@@ -305,7 +305,7 @@
         "section_color_scheme": "",
         "color_scheme": "scheme-2",
         "padding_top": 80,
-        "padding_bottom": 36
+        "padding_bottom": 40
       }
     },
     "video_slider_7P4eLF": {
@@ -370,11 +370,11 @@
         "caption": "Testimonials",
         "text_style": "caption-with-letter-spacing",
         "text_size": "medium",
-        "title": "See Our Happy Clients",
+        "title": "SEE OUR HAPPY CLIENTS",
         "heading_size": "h2",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 80
       }
     }
   },
