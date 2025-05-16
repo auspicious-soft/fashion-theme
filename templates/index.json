@@ -337,12 +337,22 @@
             "title": "BLUSH BELLE",
             "link": "shopify://products/bandeau-sun-kiss-bikini-bottom"
           }
+        },
+        "video_zBB9E3": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/v4.mp4",
+            "image": "shopify://shop_images/p13.webp",
+            "title": "Peek a boo",
+            "link": "shopify://products/one-piece-sculpting-peek-a-boo"
+          }
         }
       },
       "block_order": [
         "video_9Wj94g",
         "video_mMJhJQ",
-        "video_T69bpd"
+        "video_T69bpd",
+        "video_zBB9E3"
       ],
       "name": "Video slider",
       "settings": {
