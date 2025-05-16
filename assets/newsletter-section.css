@@ -31,14 +31,6 @@
 }
 .newsletter-grid.narrow-width form#contact_form .field__input {
     background: transparent;
-    height: 58px;
-}
-.newsletter-grid.narrow-width form#contact_form label.field__label {
-    top: calc(2rem + var(--inputs-border-width));
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 @media screen and (min-width: 750px) {
   .newsletter__wrapper {
