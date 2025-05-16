@@ -314,13 +314,25 @@
         "video_9Wj94g": {
           "type": "video",
           "settings": {
-            "title": "",
-            "link": ""
+            "video": "shopify://files/videos/v1.mp4",
+            "image": "shopify://shop_images/p1.webp",
+            "title": "Push-Up Cherry Bombshell",
+            "link": "shopify://products/push-up-cherry-bombshell-top"
+          }
+        },
+        "video_mMJhJQ": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/v2.mp4",
+            "image": "shopify://shop_images/p11.webp",
+            "title": "Push-up Marshmallow Cloud",
+            "link": "shopify://products/cheeky-bottom"
           }
         }
       },
       "block_order": [
-        "video_9Wj94g"
+        "video_9Wj94g",
+        "video_mMJhJQ"
       ],
       "name": "Video slider",
       "settings": {
