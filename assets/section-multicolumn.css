@@ -22,7 +22,7 @@ h2.inline-richtext {
 .show-divider .multicolumn-list .multicolumn-card__info{
 border-right: solid 1px #c4c4c4;
 }
-.show-divider .multicolumn-list:last-child .multicolumn-card__info{
+.show-divider .multicolumn-list .multicolumn-list__item:last-child .multicolumn-card__info{
 border-right: solid 0px #c4c4c4;
 }
 @media screen and (max-width: 749px) {
