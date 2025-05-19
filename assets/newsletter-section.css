@@ -36,6 +36,19 @@
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+.newsletter-icon{
+  position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translate(0px, -50%);
+    pointer-events: none;
+}
+.newsletter-form__field-wrapper input {
+    padding-left: 54px !important;
+}
+.newsletter-form__field-wrapper label.field__label {
+    left: 54px !important; 
+}
 @media screen and (min-width: 750px) {
   .newsletter__wrapper {
     padding-right: 9rem;
