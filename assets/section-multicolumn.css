@@ -15,7 +15,6 @@
 .multicolumn .multicolumn-list .multicolumn-card__info { 
     display: flex;
     flex-direction: column;
-    padding: 35px 20px;
 }
 
 @media screen and (max-width: 749px) {
@@ -24,9 +23,6 @@
   } 
  .multicolumn-list h3.inline-richtext {
     font-size: 24px;
-}
-.multicolumn .multicolumn-list .multicolumn-card__info {
-    padding: 20px 20px;
 }
 }
 
@@ -161,9 +157,6 @@
   margin: 0;
 }
 
-.multicolumn-card__info {
-  padding: 2.5rem;
-}
 
 .background-none .multicolumn-card__info {
   padding-top: 0;
