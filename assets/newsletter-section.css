@@ -32,6 +32,10 @@
 .newsletter-grid.narrow-width form#contact_form .field__input {
     background: transparent;
 }
+.newsletter-grid.narrow-width h2.inline-richtext {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
 @media screen and (min-width: 750px) {
   .newsletter__wrapper {
     padding-right: 9rem;
@@ -39,6 +43,9 @@
   }
   .newsletter-grid.narrow-width {
     grid-template-columns: 1fr 1fr;
+}
+.newsletter-grid.narrow-width h2.inline-richtext {
+    letter-spacing: 3px;
 }
 }
 
