@@ -12,18 +12,16 @@
 h2.inline-richtext {
     font-size: 28px;
 }
-.multicolumn .multicolumn-list .multicolumn-card__info {
-    
+.multicolumn .multicolumn-list .multicolumn-card__info { 
     display: flex;
     flex-direction: column;
     padding: 35px 20px;
-    gap: 5px;
 }
 .show-divider .multicolumn-list .multicolumn-card__info{
 border-right: solid 1px #c4c4c4;
 }
 .show-divider .multicolumn-list .multicolumn-list__item:last-child .multicolumn-card__info{
-border-right: solid 0px #c4c4c4;
+border-right: solid 0px #c4c4c4; 
 }
 @media screen and (max-width: 749px) {
   .multicolumn .title-wrapper-with-link {
