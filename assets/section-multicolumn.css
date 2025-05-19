@@ -68,7 +68,6 @@
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
-  gap: 0;
 }
 
 .multicolumn-list__item:only-child {
@@ -157,6 +156,9 @@
   margin: 0;
 }
 
+.multicolumn-card__info {
+  padding: 2.5rem;
+}
 
 .background-none .multicolumn-card__info {
   padding-top: 0;
