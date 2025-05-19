@@ -47,6 +47,9 @@
 .newsletter-grid.narrow-width h2.inline-richtext {
     letter-spacing: 6px;
 }
+.newsletter-grid.narrow-width { 
+    gap: 50px;
+}
 }
 
 .newsletter__wrapper > * {
