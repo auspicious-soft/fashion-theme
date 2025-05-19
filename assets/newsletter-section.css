@@ -43,10 +43,10 @@
     transform: translate(0px, -50%);
     pointer-events: none;
 }
-.newsletter-form__field-wrapper input {
+.newsletter-grid .newsletter-form__field-wrapper input {
     padding-left: 54px !important;
 }
-.newsletter-form__field-wrapper label.field__label {
+.newsletter-grid .newsletter-form__field-wrapper label.field__label {
     left: 54px !important; 
 }
 @media screen and (min-width: 750px) {
