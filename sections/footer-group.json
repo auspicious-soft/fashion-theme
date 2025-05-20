@@ -123,19 +123,29 @@
             "heading": "",
             "menu": "footer-menu1"
           }
+        },
+        "form_NxKegC": {
+          "type": "form",
+          "settings": {
+            "heading": "Subscribe to our newsletter to received product update and promotions",
+            "subtext": "",
+            "show_social": true,
+            "social-heading": ""
+          }
         }
       },
       "block_order": [
         "text_YBYBVJ",
         "footer-0",
-        "footer-1"
+        "footer-1",
+        "form_NxKegC"
       ],
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
-        "show_social": true,
+        "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
