@@ -93,7 +93,6 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "show-divider": true,
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -104,32 +103,32 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "text_YBYBVJ": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p><br/>Newmodern©                                           Make it simple<br/><br/>8567 North Lyme Dr.                                                               Watertown, MA 02472</p><p> support@newmodern.com                     (+84) 39 5875 256<br/><br/></p>"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "",
             "menu": "footer"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
+            "heading": "",
             "menu": "footer"
-          }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
           }
         }
       },
       "block_order": [
+        "text_YBYBVJ",
         "footer-0",
-        "footer-1",
-        "footer-2"
+        "footer-1"
       ],
       "settings": {
         "color_scheme": "scheme-1",
