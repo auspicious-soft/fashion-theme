@@ -142,6 +142,8 @@
       ],
       "settings": {
         "color_scheme": "scheme-1",
+        "footer_icon": "shopify://shop_images/Layer_1_1.svg",
+        "image_width": "third",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
