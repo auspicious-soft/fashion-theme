@@ -42,6 +42,14 @@
       assign only_empty_brand = true
     endif
   -%}
+
+  {%- if section.settings.footer_icon != blank -%}
+    <div class="footer-icon {{ section.settings.image_width }}-width">
+      <img src="{{section.settings.footer_icon | img_url:''}}">
+    </div>
+  {%- endif -%}
+
+  
   {%- if section.blocks.size > 0
     or section.settings.newsletter_enable
     or section.settings.show_social
@@ -535,6 +543,31 @@
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
+    },
+    {
+      "type": "image_picker",
+      "id": "footer_icon",
+      "label": "Footer icon"      
+    },
+    {
+      "type": "select",
+      "id": "image_width",
+      "options": [
+        {
+          "value": "third",
+          "label": "t:sections.multicolumn.settings.image_width.options__1.label"
+        },
+        {
+          "value": "half",
+          "label": "t:sections.multicolumn.settings.image_width.options__2.label"
+        },
+        {
+          "value": "full",
+          "label": "t:sections.multicolumn.settings.image_width.options__3.label"
+        }
+      ],
+      "default": "full",
+      "label": "t:sections.multicolumn.settings.image_width.label"
     },
     {
       "type": "header",
