@@ -142,6 +142,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-1",
+        "coptright_color_scheme": "scheme-3",
         "footer_icon": "shopify://shop_images/Vector_1.svg",
         "image_width": "half",
         "newsletter_enable": false,
