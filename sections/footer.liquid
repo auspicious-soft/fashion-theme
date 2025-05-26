@@ -170,7 +170,7 @@
                   {%- when 'form' -%}
                     <div class="footer-block__newsletter">
                       {%- if block.settings.heading != blank -%}
-                        <h2 class="footer-block__heading inline-richtext">{{ section.settings.heading }}</h2>
+                        <p class="footer-block__heading inline-richtext">{{ section.settings.heading }}</p>
                       {%- endif -%}
                       {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                         <input type="hidden" name="contact[tags]" value="newsletter">
