@@ -58,7 +58,7 @@
   
   {%- if section.blocks.size > 0
     or section.settings.newsletter_enable
-    or section.settings.show_social
+    or section.settings.show_social 
     and has_social_icons == true
     or section.settings.enable_follow_on_shop
   -%}
@@ -90,7 +90,7 @@
                 {% endif %}
               >
                 {%- if block.settings.heading != blank -%}
-                  <p class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</p>
+                  <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
                 {%- endif -%}
 
                 {%- case block.type -%}
@@ -164,13 +164,13 @@
                           >
                         </div>
                       {%- else -%}
-                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }} 
-                      {%- endif -%} 
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                      {%- endif -%}
                     </div>
                   {%- when 'form' -%}
                     <div class="footer-block__newsletter">
                       {%- if block.settings.heading != blank -%}
-                        <p class="footer-block__heading inline-richtext">{{ section.settings.heading }}</p>
+                        <h2 class="footer-block__heading inline-richtext">{{ section.settings.heading }}</h2>
                       {%- endif -%}
                       {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                         <input type="hidden" name="contact[tags]" value="newsletter">
@@ -238,7 +238,7 @@
                     </div>
 
                     {%- if block.settings.social-heading != blank -%}
-                      <p class="footer-block__heading inline-richtext">{{ block.settings.social-heading }}</p>
+                      <h2 class="footer-block__heading inline-richtext">{{ block.settings.social-heading }}</h2>
                     {%- endif -%}
 
                     <div class=""></div>
@@ -260,7 +260,7 @@
           {%- if section.settings.newsletter_enable -%}
             <div class="footer-block__newsletter">
               {%- if section.settings.newsletter_heading != blank -%}
-                <p class="footer-block__heading inline-richtext">{{ section.settings.newsletter_heading }}</p>
+                <h2 class="footer-block__heading inline-richtext">{{ section.settings.newsletter_heading }}</h2>
               {%- endif -%}
               {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                 <input type="hidden" name="contact[tags]" value="newsletter">
