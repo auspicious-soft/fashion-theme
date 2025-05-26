@@ -343,7 +343,7 @@
   {%- endif -%}
 
   <div
-    class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} color-{{ section.settings.color_scheme.id }} gradient"
+    class="color-{{ section.settings.color_scheme.id }} gradient footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} "
     {% if settings.animations_reveal_on_scroll %}
       data-cascade
     {% endif %}
