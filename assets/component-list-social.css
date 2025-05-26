@@ -1,7 +1,6 @@
 .list-social {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
 }
 
 @media only screen and (max-width: 749px) {
@@ -18,8 +17,9 @@
 .list-social__link {
   align-items: center;
   display: flex;
-  padding: 1.1rem;
   color: rgb(var(--color-foreground));
+      gap: 1.1rem; 
+
 }
 
 .utility-bar .list-social__link {
@@ -28,5 +28,5 @@
 }
 
 .list-social__link:hover .icon {
-  transform: scale(1.07);
+  transform: scale(1.07); 
 }

@@ -165,7 +165,9 @@
 .footer-block--newsletter:only-child {
   margin-top: 0;
 }
-
+.footer-block__newsletter {
+    margin-bottom: 3rem;
+}
 @media screen and (max-width: 749px) {
   .footer-block.footer-block--menu:only-child {
     text-align: left;
