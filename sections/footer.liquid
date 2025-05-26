@@ -42,11 +42,13 @@
       assign only_empty_brand = true
     endif
   -%}
-
+ 
   {%- if section.settings.footer_icon != blank -%}
+    <div class=" page-width">
     <div class="footer-icon {{ section.settings.image_width }}-width">
       <img src="{{section.settings.footer_icon | img_url:''}}">
     </div>
+  </div>
   {%- endif -%}
 
   
