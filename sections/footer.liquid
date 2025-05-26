@@ -44,10 +44,14 @@
   -%}
  
   {%- if section.settings.footer_icon != blank -%}
-    <div class=" page-width">
-    <div class="footer-icon {{ section.settings.image_width }}-width">
-      <img src="{{section.settings.footer_icon | img_url:''}}">
-    </div>
+    <div class="divider">
+    <div class="page-width">
+      <div class="divider-inner">
+      <div class="divider-inner-img {{ section.settings.image_width }}-width">
+        <img src="{{section.settings.footer_icon | img_url:''}}">
+      </div>
+      </div>
+  </div>
   </div>
   {%- endif -%}
 
