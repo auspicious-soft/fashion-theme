@@ -128,7 +128,7 @@
           "type": "form",
           "settings": {
             "heading": "Subscribe to our newsletter to received product update and promotions",
-            "subtext": "",
+            "subtext": "<p><br/><br/></p>",
             "show_social": true,
             "social-heading": "Find us on"
           }
