@@ -7,8 +7,12 @@
   <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 
-{%- if section.settings.menu_type_desktop == 'mega' -%}
-  <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'">
+{%- if section.settings.menu_type_desktop == 'mega' and section.settings.mega_menu_style == 'style1' -%}
+  <link rel="stylesheet" href="{{ 'component-mega-menu-style1.css' | asset_url }}" media="print" onload="this.media='all'">
+{%- endif -%}
+
+{%- if section.settings.menu_type_desktop == 'mega' and section.settings.mega_menu_style == 'style2' -%}
+  <link rel="stylesheet" href="{{ 'component-mega-menu-style2.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 
 
@@ -172,8 +176,10 @@
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
           render 'header-dropdown-menu'
-        elsif section.settings.menu_type_desktop != 'drawer'
-          render 'header-mega-menu'
+        elsif section.settings.menu_type_desktop != 'drawer' and section.settings.mega_menu_style == 'style1'
+          render 'header-mega-menu-style1'
+        elsif section.settings.menu_type_desktop != 'drawer' and section.settings.mega_menu_style == 'style2'
+          render 'header-mega-menu-style2'
         endif
       endif
     %}
@@ -521,6 +527,22 @@
     },
     {
       "type": "select",
+      "id": "mega_menu_style",
+      "options": [
+        {
+          "value": "style1",
+          "label": "t:sections.header.settings.mega_menu_style.options__1.label"
+        },
+        {
+          "value": "style2",
+          "label": "t:sections.header.settings.mega_menu_style.options__2.label"
+        }        
+      ],
+      "default": "style1",
+      "label": "t:sections.header.settings.mega_menu_style.label"
+    },
+    {
+      "type": "select",
       "id": "sticky_header_type",
       "options": [
         {
@@ -632,6 +654,22 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type":"mage-menu",
+      "name":"Mage menu image",
+      "settings":[
+        {
+          "type": "text",
+          "id": "menu-title",
+          "label": "Menu title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }        
+      ]
     }
   ]
 }
