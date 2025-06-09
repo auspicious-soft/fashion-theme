@@ -82,17 +82,19 @@
 
                 {%- if imageShow -%}
                   <div class="mega-menu__content-image-wrapper">
-                    <div class="slider">
-                      {%- for block in megaBlocks -%}
-                        {%- assign menuTitle = block.settings.menu-title -%}
-                        {%- if menuTitle == link.title -%}
-                          {%- if block.settings.image != blank -%}
-                            <div class="slide ">                                  
-                              <img class="image" src="{{ block.settings.image | img_url: "master" }}" alt="Main Image">                                                                        
-                            </div>
-                          {%- endif -%}     
-                        {%- endif -%} 
-                      {%- endfor -%}  
+                    <div class="slider swiper slider-image">
+                      <div class="swiper-wrapper">
+                        {%- for block in megaBlocks -%}
+                          {%- assign menuTitle = block.settings.menu-title -%}
+                          {%- if menuTitle == link.title -%}
+                            {%- if block.settings.image != blank -%}
+                              <div class="slide swiper-slide">                                  
+                                <img class="image" src="{{ block.settings.image | img_url: "master" }}" alt="Main Image">                                                                        
+                              </div>
+                            {%- endif -%}     
+                          {%- endif -%} 
+                        {%- endfor -%}  
+                      </div>
                     </div>
                   </div>
                 {%- endif -%}

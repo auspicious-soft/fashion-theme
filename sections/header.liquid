@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="{{ 'component-mega-menu-style2.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <style>
   header-drawer {
@@ -451,6 +453,12 @@
     }
   </script>
 {%- endif -%}
+
+<script>
+  var swiper = new Swiper(".slider-image", {
+    slidesPerView: 1        
+  });
+</script>
 
 {% schema %}
 {
