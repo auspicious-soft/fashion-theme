@@ -66,39 +66,7 @@
                       {%- endif -%}
                     </li>
                   {%- endfor -%}
-                </ul>
-                {%- assign megaBlocks = section.blocks | where: "type", "mage-menu" %}
-                {%- assign imageShow = false -%}
-                
-                {%- for block in megaBlocks -%}
-                    {%- assign menuTitle = block.settings.menu-title -%}
-
-                    {%- if menuTitle == link.title -%}
-                      {%- assign imageShow = true -%}
-                      {%- break - %}
-                    {%- endif -%}
-                {%- endfor -%}                
-
-                {%- if imageShow -%}
-                  <div class="mega-menu__content-image-wrapper">
-                    <div class="mega-image-wrapper">
-                      <div class="slider">
-                        div class="swiper-wrapper">
-                          {%- for block in megaBlocks -%}
-                            {%- assign menuTitle = block.settings.menu-title -%}
-                            {%- if menuTitle == link.title -%}
-                                {%- if block.settings.image != blank -%}
-                                  <div class="slide swiper-slide">                                  
-                                    <img class="mobile-image" src="{{ block.settings.image | img_url: "master" }}" alt="Main Image">                                                                        
-                                  </div>
-                                {%- endif -%}     
-                            {%- endif -%}               
-                          {%- endfor -%}                         
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                {%- endif -%}
+                </ul>                
               </div>
             </details>
           </header-menu>
