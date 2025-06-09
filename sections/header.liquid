@@ -456,7 +456,12 @@
 
 <script>
   var swiper = new Swiper(".slider-image", {
-    slidesPerView: 1        
+    slidesPerView: 1,
+    loop: true, // optional
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true, // make dots clickable
+    },       
   });
 </script>
 
