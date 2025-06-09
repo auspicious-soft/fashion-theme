@@ -54,12 +54,20 @@
             "menu-title": "Shop All",
             "image": "shopify://shop_images/image_30.png"
           }
+        },
+        "mage_menu_Aqngbz": {
+          "type": "mage-menu",
+          "settings": {
+            "menu-title": "Shop All",
+            "image": "shopify://shop_images/1_43acb61c-8dd1-47d4-b7e8-b5f797bc8764.png"
+          }
         }
       },
       "block_order": [
         "mage_menu_ECfbbV",
         "mage_menu_xWUY9V",
-        "mage_menu_R8wY6q"
+        "mage_menu_R8wY6q",
+        "mage_menu_Aqngbz"
       ],
       "settings": {
         "logo_position": "middle-left",
