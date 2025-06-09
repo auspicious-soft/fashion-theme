@@ -33,6 +33,34 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mage_menu_ECfbbV": {
+          "type": "mage-menu",
+          "settings": {
+            "menu-title": "Shop All",
+            "image": "shopify://shop_images/p1.webp"
+          }
+        },
+        "mage_menu_xWUY9V": {
+          "type": "mage-menu",
+          "settings": {
+            "menu-title": "Shop All",
+            "image": "shopify://shop_images/p13.webp"
+          }
+        },
+        "mage_menu_R8wY6q": {
+          "type": "mage-menu",
+          "settings": {
+            "menu-title": "Shop All",
+            "image": "shopify://shop_images/image_30.png"
+          }
+        }
+      },
+      "block_order": [
+        "mage_menu_ECfbbV",
+        "mage_menu_xWUY9V",
+        "mage_menu_R8wY6q"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
