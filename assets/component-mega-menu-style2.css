@@ -1,7 +1,11 @@
 .mega-menu {
   position: static;
 }
-
+.mega-menu__content-image-wrapper img.image {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+}
 .mega-menu__content {
   background-color: rgb(var(--color-background));
   border-left: 0;
