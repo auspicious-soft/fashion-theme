@@ -103,7 +103,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 img {
   max-width: 100%;
 }
-.swiper-pagination-bullet-active {
+body .swiper-pagination-bullet-active {
   background: #000000;
 }
 @media screen and (min-width: 750px) {
