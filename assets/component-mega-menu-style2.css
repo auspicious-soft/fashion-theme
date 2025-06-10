@@ -33,19 +33,20 @@
   opacity: 1;
   transform: translateY(0);
 }
-.mega-style-inner-2 {
-  display: grid;
-  gap: 1.8rem 4rem;
-  grid-template-columns: 2fr 1fr;
-  list-style: none;
-}
+
 .mega-menu__list {
   display: grid;
   gap: 1.8rem 4rem;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   list-style: none;
 }
-
+.mega-style-inner-2 {
+  display: grid;
+  gap: 1.8rem 4rem;
+  list-style: none;
+  grid-template-columns: 75% 25%;
+  list-style: none;
+}
 .mega-menu__link {
   color: rgba(var(--color-foreground), 0.75);
   display: block;
