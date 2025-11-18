@@ -1294,6 +1294,19 @@
           "label": "Customer account avatar",
           "info": "Only visible when customers are signed in with Shop. [Manage customer accounts](/admin/settings/customer_accounts)"
         }
+      },
+      "blocks": {
+        "mage-menu": {
+          "name": "Mage menu image",
+          "settings": {
+            "text": {
+              "label": "Menu title"              
+            },
+            "image_picker": {
+              "label": "Image"              
+            }
+          }
+        }
       }
     },
     "image-banner": {
