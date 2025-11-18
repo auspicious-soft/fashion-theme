@@ -30,8 +30,11 @@
                 class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
                 tabindex="-1"
               >
+                
+                <div class="page-width">
+                  <div class="mega-style-inner-2">
                 <ul
-                  class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                  class="mega-menu__list {% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
                   role="list"
                 >
                   {%- for childlink in link.links -%}
@@ -99,6 +102,8 @@
                     </div>
                   </div>
                 {%- endif -%}
+              </div>
+              </div>
               </div>
             </details>
           </header-menu>
