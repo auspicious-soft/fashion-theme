@@ -1071,6 +1071,15 @@
             "label": "서랍"
           }
         },
+         "mega_menu_style": {
+          "label": "메뉴 유형",
+          "options__1": {
+            "label": "스타일1"
+          },
+          "options__2": {
+            "label": "스타일2"
+          }          
+        },
         "mobile_logo_position": {
           "label": "모바일 로고 위치",
           "options__1": {
@@ -1118,6 +1127,19 @@
         },
         "header__utilities": {
           "content": "유틸리티"
+        }
+      },
+      "blocks": {
+        "mage-menu": {
+          "name": "메가 메뉴 이미지",
+          "settings": {
+            "text": {
+              "label": "메뉴 제목"              
+            },
+            "image_picker": {
+              "label": "이미지"              
+            }
+          }
         }
       }
     },

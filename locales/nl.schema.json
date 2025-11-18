@@ -1071,6 +1071,15 @@
             "label": "Lade"
           }
         },
+        "mega_menu_style": {
+          "label": "Menutype",
+          "options__1": {
+            "label": "Stijl1"
+          },
+          "options__2": {
+            "label": "Stijl2"
+          }          
+        },
         "mobile_logo_position": {
           "label": "Positie logo op mobiel",
           "options__1": {
@@ -1118,6 +1127,19 @@
         },
         "header__utilities": {
           "content": "Hulpprogramma's"
+        }
+      },
+      "blocks": {
+        "mage-menu": {
+          "name": "Mage menu-afbeelding",
+          "settings": {
+            "text": {
+              "label": "Menutitel"              
+            },
+            "image_picker": {
+              "label": "Afbeelding"              
+            }
+          }
         }
       }
     },

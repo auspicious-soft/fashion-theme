@@ -1071,6 +1071,15 @@
             "label": "ドロワー"
           }
         },
+        "mega_menu_style": {
+          "label": "メニュータイプ",
+          "options__1": {
+            "label": "スタイル1"
+          },
+          "options__2": {
+            "label": "スタイル2"
+          }          
+        },
         "mobile_logo_position": {
           "label": "モバイルのロゴの位",
           "options__1": {
@@ -1118,6 +1127,19 @@
         },
         "header__utilities": {
           "content": "ユーティリティー"
+        }
+      },
+      "blocks": {
+        "mage-menu": {
+          "name": "メイジメニュー画像",
+          "settings": {
+            "text": {
+              "label": "メニュータイトル"              
+            },
+            "image_picker": {
+              "label": "画像"              
+            }
+          }
         }
       }
     },

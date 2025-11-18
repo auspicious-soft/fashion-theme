@@ -1072,6 +1072,15 @@
             "label": "Tiroir"
           }
         },
+        "mega_menu_style": {
+          "label": "Type de menu",
+          "options__1": {
+            "label": "Style 1"
+          },
+          "options__2": {
+            "label": "Style 2"
+          }          
+        },
         "mobile_logo_position": {
           "label": "Position du logo sur mobile",
           "options__1": {
@@ -1119,6 +1128,19 @@
         },
         "header__utilities": {
           "content": "Utilitaires"
+        }
+      },
+      "blocks": {
+        "mage-menu": {
+          "name": "Image du menu Mage",
+          "settings": {
+            "text": {
+              "label": "Titre du menu"              
+            },
+            "image_picker": {
+              "label": "Image"              
+            }
+          }
         }
       }
     },

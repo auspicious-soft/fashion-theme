@@ -1071,6 +1071,15 @@
             "label": "Einschub"
           }
         },
+        "mega_menu_style": {
+          "label": "Menütyp",
+          "options__1": {
+            "label": "Stil 1"
+          },
+          "options__2": {
+            "label": "Stil 2"
+          }          
+        },
         "mobile_logo_position": {
           "label": "Logo-Position für mobile Darstellung",
           "options__1": {
@@ -1118,6 +1127,19 @@
         },
         "header__utilities": {
           "content": "Versorgungsunternehmen"
+        }
+      },
+      "blocks": {
+        "mage-menu": {
+          "name": "Mage-Menübild",
+          "settings": {
+            "text": {
+              "label": "Menütitel"              
+            },
+            "image_picker": {
+              "label": "Bild"              
+            }
+          }
         }
       }
     },

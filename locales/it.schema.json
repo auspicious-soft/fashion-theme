@@ -1071,6 +1071,15 @@
             "label": "Finestra"
           }
         },
+        "mega_menu_style": {
+          "label": "Tipo di menu",
+          "options__1": {
+            "label": "Stile 1"
+          },
+          "options__2": {
+            "label": "Stile 2"
+          }          
+        },
         "mobile_logo_position": {
           "label": "Posizione del logo mobile",
           "options__1": {
@@ -1118,6 +1127,19 @@
         },
         "header__utilities": {
           "content": "Utility"
+        }
+      },
+      "blocks": {
+        "mage-menu": {
+          "name": "Immagine del menu Mage",
+          "settings": {
+            "text": {
+              "label": "Titolo del menu"              
+            },
+            "image_picker": {
+              "label": "Immagine"              
+            }
+          }
         }
       }
     },
