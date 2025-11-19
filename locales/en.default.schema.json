@@ -641,6 +641,49 @@
         "name": "Collage"
       }
     },
+    "image-collage": {
+      "name": "Image collage",
+      "settings": {
+        "heading": {
+          "default": "Multimedia collage",
+          "label": "Heading"
+        },
+        "header_layout": {
+          "content": "Layout"
+        },            
+        "desktop_layout": {
+          "label": "Layout",
+          "options__1": {
+            "label": "Top"
+          },
+          "options__2": {
+            "label": "Bottom"
+          }
+        },
+        "mobile_layout": {
+          "label": "Mobile layout",
+          "options__1": {
+            "label": "Collage"
+          },
+          "options__2": {
+            "label": "Column"
+          }
+        }
+      },
+      "blocks": {
+        "image": {
+          "name": "Image",
+          "settings": {
+            "image": {
+              "label": "Image"
+            }
+          }
+        }        
+      },
+      "presets": {
+        "name": "Image collage"
+      }
+    },
     "collection-list": {
       "name": "Collection list",
       "settings": {
@@ -1819,7 +1862,7 @@
       "presets": {
         "name": "Image with text"
       }
-    },
+    },    
     "multirow": {
       "name": "Multirow",
       "settings": {

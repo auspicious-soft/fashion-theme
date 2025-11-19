@@ -35,7 +35,7 @@
 
 {% schema %}
 {
-  "name": "Image collage",
+  "name": "t:sections.image-collage.name",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -45,8 +45,8 @@
     {
       "type": "inline_richtext",
       "id": "heading",
-      "default": "t:sections.collage.settings.heading.default",
-      "label": "t:sections.collage.settings.heading.label"
+      "default": "t:sections.image-collage.settings.heading.default",
+      "label": "t:sections.image-collage.settings.heading.label"
     },
     {
       "type": "select",
@@ -78,7 +78,7 @@
     },
     {
       "type": "header",
-      "content": "t:sections.collage.settings.header_layout.content"
+      "content": "t:sections.image-collage.settings.header_layout.content"
     },       
     {
       "type": "select",
@@ -86,15 +86,15 @@
       "options": [
         {
           "value": "top",
-          "label": "Top"
+          "label": "t:sections.image-collage.settings.desktop_layout.options__1.label"
         },
         {
           "value": "bottom",
-          "label": "Bottom"
+          "label": "t:sections.image-collage.settings.desktop_layout.options__2.label"
         }
       ],
       "default": "top",
-      "label": "t:sections.collage.settings.desktop_layout.label"
+      "label": "t:sections.image-collage.settings.desktop_layout.label"
     },
     {
       "type": "select",
@@ -102,15 +102,15 @@
       "options": [
         {
           "value": "collage",
-          "label": "t:sections.collage.settings.mobile_layout.options__1.label"
+          "label": "t:sections.image-collage.settings.mobile_layout.options__1.label"
         },
         {
           "value": "column",
-          "label": "t:sections.collage.settings.mobile_layout.options__2.label"
+          "label": "t:sections.image-collage.settings.mobile_layout.options__2.label"
         }
       ],
       "default": "collage",
-      "label": "t:sections.collage.settings.mobile_layout.label"
+      "label": "t:sections.image-collage.settings.mobile_layout.label"
     },    
     {
       "type": "color_scheme",
@@ -147,12 +147,12 @@
   "blocks": [
     {
       "type": "image",
-      "name": "t:sections.collage.blocks.image.name",
+      "name": "t:sections.image-collage.blocks.image.name",
       "settings": [
         {
           "type": "image_picker",
           "id": "image",
-          "label": "t:sections.collage.blocks.image.settings.image.label"
+          "label": "t:sections.image-collage.blocks.image.settings.image.label"
         }
       ]
     }  
@@ -160,7 +160,7 @@
   "max_blocks": 3,
   "presets": [
     {
-      "name": "Image collage",
+      "name": "t:sections.image-collage.presets.name",
       "blocks": [
         {
           "type": "image"
