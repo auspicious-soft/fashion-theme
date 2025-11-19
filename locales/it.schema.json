@@ -1484,6 +1484,9 @@
         "image": {
           "label": "Immagine"
         },
+        "secondary_image": {
+          "label": "Immagine secondaria"
+        },
         "height": {
           "options__1": {
             "label": "Adatta all'immagine"

@@ -1484,6 +1484,9 @@
         "image": {
           "label": "Bild"
         },
+        "secondary_image": {
+          "label": "Sekundärbild"
+        },
         "height": {
           "options__1": {
             "label": "An Bild anpassen"

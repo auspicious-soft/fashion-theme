@@ -1485,6 +1485,9 @@
         "image": {
           "label": "Image"
         },
+        "secondary_image": {
+          "label": "Image secondaire"
+        },
         "height": {
           "options__1": {
             "label": "Adapter à l'image"

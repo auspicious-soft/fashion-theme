@@ -1484,6 +1484,9 @@
         "image": {
           "label": "画像"
         },
+        "secondary_image": {
+          "label": "二次画像"
+        },
         "height": {
           "options__1": {
             "label": "画像に合わせる"
