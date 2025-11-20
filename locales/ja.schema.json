@@ -619,6 +619,49 @@
         "name": "コラージュ"
       }
     },
+    "image-collage": {
+      "name": "画像のコラージュ",
+      "settings": {
+        "heading": {
+          "default": "マルチメディアコラージュ",
+          "label": "見出し"
+        },
+        "header_layout": {
+          "content": "レイアウト"
+        },            
+        "desktop_layout": {
+          "label": "レイアウト",
+          "options__1": {
+            "label": "トップ"
+          },
+          "options__2": {
+            "label": "底"
+          }
+        },
+        "mobile_layout": {
+          "label": "モバイルレイアウト",
+          "options__1": {
+            "label": "コラージュ"
+          },
+          "options__2": {                                               
+            "label": "カラム"
+          }
+        }
+      },
+      "blocks": {
+        "image": {
+          "name": "画像",
+          "settings": {
+            "image": {
+              "label": "画像"
+            }
+          }
+        }        
+      },
+      "presets": {
+        "name": "画像のコラージュ"
+      }
+    },
     "collection-list": {
       "name": "コレクションリスト",
       "settings": {
