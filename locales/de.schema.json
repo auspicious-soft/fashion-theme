@@ -991,6 +991,73 @@
         "name": "Sammlungsschieberegler"
       }
     },
+    "video-slider": {
+      "name": "Video-Slider",
+      "settings": {
+        "content_alignment": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": { 
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Inhaltliche Ausrichtung"
+        },     
+        "caption": {
+          "label": "Untertitel"
+        },
+        "text_style": {          
+          "options__1": {
+            "label": "Untertitel"
+          },
+          "options__2": {
+            "label": "Großbuchstaben"
+          },
+          "label": "Stil"
+        },
+        "text_size": {              
+          "options__1": {
+            "label": "Klein"
+          },
+          "options__2": {
+            "label": "Mittel"
+          },
+          "options__3": {
+            "label": "Groß"
+          },
+          "label": "Größe"
+        },
+        "title": {
+          "label": "Überschrift",
+          "default": "Ausgewählte Sammlung"
+        }       
+      },
+      "blocks": {
+        "video": {
+          "name": "Video",
+          "settings": {
+            "video": {
+              "label": "Video"              
+            },
+            "image": {
+              "label": "Bild"              
+            },
+            "title": {
+              "label": "Videotitel"              
+            },
+            "link": {
+              "label": "Link"              
+            }
+          }       
+        }      
+      },
+      "presets": {
+        "name": "Video slider"
+      }
+    },
     "footer": {
       "name": "Fußzeile",
       "blocks": {

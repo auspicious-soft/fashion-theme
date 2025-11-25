@@ -992,6 +992,73 @@
         "name": "Curseur de collecte"
       }
     },
+    "video-slider": {
+      "name": "Curseur vidéo",
+      "settings": {
+        "content_alignment": {
+          "options__1": {
+            "label": "Gauche"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Droite"
+          },
+          "label": "Alignement du contenu"
+        },     
+        "caption": {
+          "label": "Légende"
+        },
+        "text_style": {          
+          "options__1": {
+            "label": "Sous-titre"
+          },
+          "options__2": {
+            "label": "Majuscule"
+          },
+          "label": "Style"
+        },
+        "text_size": {              
+          "options__1": {
+            "label": "Petit"
+          },
+          "options__2": {
+            "label": "Moyenne"
+          },
+          "options__3": {
+            "label": "Grand"
+          },
+          "label": "Taille"
+        },
+        "title": {
+          "label": "Titre",
+          "default": "Collection en vedette"
+        }       
+      },
+      "blocks": {
+        "video": {
+          "name": "Vidéo",
+          "settings": {
+            "video": {
+              "label": "Vidéo"              
+            },
+            "image": {
+              "label": "Image"              
+            },
+            "title": {
+              "label": "Titre de la vidéo"              
+            },
+            "link": {
+              "label": "Lien"              
+            }
+          }       
+        }      
+      },
+      "presets": {
+        "name": "Curseur vidéo"
+      }
+    },
     "footer": {
       "name": "Pied de page",
       "blocks": {
