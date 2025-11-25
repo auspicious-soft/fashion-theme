@@ -619,6 +619,49 @@
         "name": "Collage"
       }
     },
+    "image-collage": {
+      "name": "Beeldcollage",
+      "settings": {
+        "heading": {
+          "default": "Multimediacollage",
+          "label": "Opschrift"
+        },
+        "header_layout": {
+          "content": "Opmaak"
+        },            
+        "desktop_layout": {
+          "label": "Opmaak",
+          "options__1": {
+            "label": "Bovenkant"
+          },
+          "options__2": {
+            "label": "Onderkant"
+          }
+        },
+        "mobile_layout": {
+          "label": "Mobiele opmaak",
+          "options__1": {
+            "label": "Collage"
+          },
+          "options__2": {
+            "label": "Kolom"
+          }
+        }
+      },
+      "blocks": {
+        "image": {
+          "name": "Afbeelding",
+          "settings": {
+            "image": {
+              "label": "Afbeelding"
+            }
+          }
+        }        
+      },
+      "presets": {
+        "name": "Beeldcollage"
+      }
+    },
     "collection-list": {
       "name": "Collectielijst",
       "settings": {

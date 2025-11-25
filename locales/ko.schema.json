@@ -619,6 +619,49 @@
         "name": "콜라주"
       }
     },
+    "image-collage": {
+      "name": "이미지 콜라주",
+      "settings": {
+        "heading": {
+          "default": "멀티미디어 콜라주",
+          "label": "제목"
+        },
+        "header_layout": {
+          "content": "레이아웃"
+        },            
+        "desktop_layout": {
+          "label": "레이아웃",
+          "options__1": {
+            "label": "맨 위"
+          },
+          "options__2": {
+            "label": "맨 아래"
+          }
+        },
+        "mobile_layout": {
+          "label": "모바일 레이아웃",
+          "options__1": {
+            "label": "콜라주"
+          },
+          "options__2": {
+            "label": "열"
+          }
+        }
+      },
+      "blocks": {
+        "image": {
+          "name": "이미지",
+          "settings": {
+            "image": {
+              "label": "이미지"
+            }
+          }
+        }        
+      },
+      "presets": {
+        "name": "이미지 콜라주"
+      }
+    },
     "collection-list": {
       "name": "컬렉션 목록",
       "settings": {

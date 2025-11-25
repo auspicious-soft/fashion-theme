@@ -619,6 +619,49 @@
         "name": "Collage"
       }
     },
+    "image-collage": {
+      "name": "Bildcollage",
+      "settings": {
+        "heading": {
+          "default": "Multimedia-Collage",
+          "label": "Überschrift"
+        },
+        "header_layout": {
+          "content": "Layout"
+        },            
+        "desktop_layout": {
+          "label": "Layout",
+          "options__1": {
+            "label": "Top"
+          },
+          "options__2": {
+            "label": "Bottom"
+          }
+        },
+        "mobile_layout": {
+          "label": "Mobiles layout",
+          "options__1": {
+            "label": "Collage"
+          },
+          "options__2": {
+            "label": "Spalte"
+          }
+        }
+      },
+      "blocks": {
+        "image": {
+          "name": "Bild",
+          "settings": {
+            "image": {
+              "label": "Bild"
+            }
+          }
+        }        
+      },
+      "presets": {
+        "name": "Bildcollage"
+      }
+    },
     "collection-list": {
       "name": "Kollektionsliste",
       "settings": {
