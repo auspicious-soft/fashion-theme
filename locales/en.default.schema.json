@@ -1013,6 +1013,73 @@
         "name": "Collection slider"
       }
     },
+    "video-slider": {
+      "name": "Video slider",
+      "settings": {
+        "content_alignment": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Content alignment"
+        },     
+        "caption": {
+          "label": "Caption"
+        },
+        "text_style": {          
+          "options__1": {
+            "label": "Subtitle"
+          },
+          "options__2": {
+            "label": "Uppercase"
+          },
+          "label": "Style"
+        },
+        "text_size": {              
+          "options__1": {
+            "label": "Small"
+          },
+          "options__2": {
+            "label": "Medium"
+          },
+          "options__3": {
+            "label": "Large"
+          },
+          "label": "Size"
+        },
+        "title": {
+          "label": "Heading",
+          "default": "Featured collection"
+        }       
+      },
+      "blocks": {
+        "video": {
+          "name": "Video",
+          "settings": {
+            "video": {
+              "label": "Video"              
+            },
+            "image": {
+              "label": "Image"              
+            },
+            "title": {
+              "label": "Video title"              
+            },
+            "link": {
+              "label": "Link"              
+            }
+          }       
+        }      
+      },
+      "presets": {
+        "name": "Video slider"
+      }
+    },
     "featured-product": {
       "name": "Featured product",
       "blocks": {
